@@ -1,17 +1,26 @@
-Aprendendo Java e documentando as ferramentas
+# 📚 Aprendendo Java e documentando as ferramentas
 
-Dia 1:
+---
+
+## 📅 Dia 1
 
 aprendendo sobre como funciona a Java Virtual Machine (JVM) e como o bytcode (class) é interpretado por ela.
 
-O fluxo do java até a compilação é o seguinte:
+### 🔄 Fluxo do Java até a compilação:
 
+```text id="n0s9ci"
 Codigo java (alto nivel) -> Transformado em Class (bytecode) -> Interpretado pela JVM -> Vira baixo nivel e pode ser executado (codigo de maquina)
+```
 
-Dia 2:
+---
+
+## 📅 Dia 2
 
 Aprendendo a printar hello world e também a pegar a data do computador
 
+### 💻 Código:
+
+```java id="g7r1di"
 import.java.util.Date //Importa a data
 
 public class PrimeiroCodigo { //class é a classe que você pra depois usar ela e transoformar em bytecodes. O nome sempre tera as iniciais Maiusculas.
@@ -27,27 +36,50 @@ public class PrimeiroCodigo { //class é a classe que você pra depois usar ela 
 
 	}
 }
+```
 
-Dia 3:
-	Tipos primitivos no java
+---
 
-	Existem 8: int, double, float, char, byte, short, long, boolean
+## 📅 Dia 3
 
-	int: Muito usado no dia a dia pra guardar números inteiros
+### 🔢 Tipos primitivos no java
 
-	double: bem usado pra guardar números com casas decimais, porém consome mais memoria apesar de não ser o problema hoje
+Existem 8: int, double, float, char, byte, short, long, boolean
 
-	float: também é usado pra guardar número com casas decimais, porém é usado pra economizar bytes de memoria mas não é tão
-	usado quanto o double, é mais usado quando exige baixo nivel ou etc.
+---
 
-	char: guarda um caractere por vez
+### 📌 Descrição:
 
-	byte: Serve pra guardar valores inteiros bem pequenos, usado apenas pra economizar memoria pois o int substitui facil
+**int:**
+Muito usado no dia a dia pra guardar números inteiros
 
-	short: bem raro usar mas usa se também pra guardar valores
+**double:**
+bem usado pra guardar números com casas decimais, porém consome mais memoria apesar de não ser o problema hoje
 
-	long: usa-se pra guardar valores extremamente grandes exemplo a quantidade de milissegundos de 1970 até hoje.
+**float:**
+também é usado pra guardar número com casas decimais, porém é usado pra economizar bytes de memoria mas não é tão
+usado quanto o double, é mais usado quando exige baixo nivel ou etc.
 
-	boolean: é uma variavel que guarda true ou false.
+**char:**
+guarda um caractere por vez
 
+**byte:**
+Serve pra guardar valores inteiros bem pequenos, usado apenas pra economizar memoria pois o int substitui facil
 
+**short:**
+bem raro usar mas usa se também pra guardar valores
+
+**long:**
+usa-se pra guardar valores extremamente grandes exemplo a quantidade de milissegundos de 1970 até hoje.
+
+**boolean:**
+é uma variavel que guarda true ou false.
+
+---
+
+## 📈 Progresso
+
+* [x] Dia 1 concluído
+* [x] Dia 2 concluído
+* [x] Dia 3 concluído
+* [ ] Próximos estudos...
