@@ -130,7 +130,7 @@ No java as String não são tipos primitivos mas sim são classes, por isso toda
 O exercicio consiste em criar um relatoria em java mostrando o nome da pessoa, o endereço, o salario, e a data de recebimento
 exemplo:
 
-"meu nome é <nome>, moro no endereço <endereço> e confirmo o recibo do salario <salario> na data <data>":
+"meu nome é ...<nome>, moro no endereço ...<endereço> e confirmo o recibo do salario ...<salario> na data ...<data>":
 
 ```java id="g7r1di"
 
