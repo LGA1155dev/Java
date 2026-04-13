@@ -1,4 +1,4 @@
-# 📚 Aprendendo Java e documentando minha experiência
+# 📚 Aprendendo Java e documentando as ferramentas
 
 ---
 
@@ -119,4 +119,46 @@ public class Java04TipsPrimitives {
     }
 }
 ```
+
+
+
+No java as String não são tipos primitivos mas sim são classes, por isso toda vez que declaradas precisam começar com a sua letra inicial maiuscula "String"
+
+
+## Exercicio
+
+O exercicio consiste em criar um relatoria em java mostrando o nome da pessoa, o endereço, o salario, e a data de recebimento
+exemplo:
+
+"meu nome é <nome>, moro no endereço <endereço> e confirmo o recibo do salario <salario> na data <data>":
+
+```java id="g7r1di"
+
+import java.util.Date;
+
+public class AindaEmTiposPrimitivos {
+
+    public static void main(String[] args) {
+
+        String nome = "Gabriel";
+
+        String endereco = "Rua dos palmares 305";
+
+        float salario = 1500.90f;
+
+        Date data = new Date();
+
+        System.out.println("Meu nome é " + nome + " recebi no " +
+                "endreço " + endereco + " meu salario foi " + salario + " R$ " +
+                " no dia " + data.getDate() + "/" + (data.getMonth() + 1) + "/" + ((data.getYear() - 100) + 2000) +
+                " as " + data.getHours() + " horas" + " e " + data.getMinutes() + " minutos");
+
+
+    }
+
+}
+
+
+```
+
 
