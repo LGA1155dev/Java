@@ -13,7 +13,7 @@ public class Java03TipsPrimitives {
         boolean verdadeiro = true;
         boolean falso = false;
         char character = 1;
-        System.out.println("you're = " + age + "y/old");
+        System.out.println("you're = " + age + " y/old");
         System.out.println(verdadeiro);
 
     }
