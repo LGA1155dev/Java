@@ -162,3 +162,33 @@ public class AindaEmTiposPrimitivos {
 ```
 
 
+## 📅 Dia 5
+
+
+### Operadores aritiméticos
+
+Como nas outras linguagens o java usa os operadores + - / * ** em seu codigo, não há muito segredo, 
+
+**+ é o operador de soma **
+** - o operador de subtração**
+** / operador de divisão**
+** "*" operador de vezes**
+** "**" operador de potencia**
+
+```java id="g7r1di"
+
+public class OperadoresAritimeticos {
+
+	public static void main(String[] args){
+		int numero01 = 10;
+		int numero02 = 20;
+
+		System.out.println(numero01 + numero02 + " não é o mesmo de " + numero01 + numero02)
+
+		//Repare que a soma ou operação que vem antes da string não é concatenada com ela mas sim feita sem 				interferencia dela, exemplo numero01 + numero02 == 30.
+		Porém depois da string " não é o ..." os valores numero01 e numero02 não são somados, mas sim concatenados junto 		com a string.
+
+	}
+}
+
+```
