@@ -1,5 +1,18 @@
 # 📚 Aprendendo Java e documentando as ferramentas
 
+
+## 📈 Progresso
+
+* [x] Dia 1 concluído
+* [x] Dia 2 concluído
+* [x] Dia 3 concluído
+* [x] Dia 4 concluído
+* [x] Dia 5 concluído
+* [x] Dia 6 concluído
+* só falta mais 199 dias de estudo... pouco né?
+
+
+
 ---
 
 ## 📅 Dia 1
@@ -76,17 +89,6 @@ usa-se pra guardar valores extremamente grandes exemplo a quantidade de milisseg
 é uma variavel que guarda true ou false.
 
 ---
-
-## 📈 Progresso
-
-* [x] Dia 1 concluído
-* [x] Dia 2 concluído
-* [x] Dia 3 concluído
-* [x] Dia 4 concluído
-* [x] Dia 5 concluído
-* [x] Dia 6 concluído
-* só falta mais 199 dias de estudo... pouco né?
-
 
 
 ## 📅 Dia 4
