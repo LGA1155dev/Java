@@ -193,3 +193,51 @@ public class OperadoresAritimeticos {
 }
 
 ```
+
+## 📅 Dia 6
+
+
+### Operadores Relacionais
+
+Como nas outras linguagens o java usa os operadores %, < >, <=, >= !=, ==  
+
+
+
+```java id="g7r1di"
+
+public class OperadoresRelacionais {
+
+	public static void main(String[] args){
+		int numero01 = 10;
+		int numero02 = 20;
+
+		System.out.println(numero01 % 2)
+
+	}
+}
+
+```
+
+
+
+### Operadores Logicos
+
+os operadores logicos são  AND representado por '&&' e OR representado por '||'
+
+
+
+```java id="g7r1di"
+
+public class OperadoresLogicos {
+
+	public static void main(String[] args){
+		int numero01 = 10;
+		int numero02 = 20;
+		boolean n1MaiorQueN2 = numero01 > numero02 && numero01 != 0;
+
+		System.out.println(n1MaiorQueN2)
+
+	}
+}
+
+```
