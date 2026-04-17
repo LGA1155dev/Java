@@ -84,7 +84,8 @@ usa-se pra guardar valores extremamente grandes exemplo a quantidade de milisseg
 * [x] Dia 3 concluído
 * [x] Dia 4 concluído
 * [x] Dia 5 concluído
-# só falta mais 199 dias de estudo... pouco né?
+* [x] Dia 6 concluído
+ só falta mais 199 dias de estudo... pouco né?
 
 
 
