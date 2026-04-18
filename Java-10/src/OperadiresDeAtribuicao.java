@@ -1,0 +1,1 @@
+public class OperadiresDeAtribuicao {    public static void main(String[] args) {        double salario = 1800;        System.out.println(salario += 100);        System.out.println(salario -= 100);        System.out.println(salario /= 100);        System.out.println(salario *= 100);        System.out.println(salario %= 100);    }}

@@ -1,0 +1,1 @@
+import java.util.Scanner;public class ExerciciosJava {    public static void main(String[] args) {        Scanner input = new Scanner(System.in);        System.out.println("Sua idade: ");        int idade = input.nextInt();        String MostrarIdade = String.format("Você tem %d anos", idade);        System.out.println(MostrarIdade);    }}
