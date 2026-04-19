@@ -9,7 +9,8 @@
 * [x] Dia 4 concluído
 * [x] Dia 5 concluído
 * [x] Dia 6 concluído
-* só falta mais 199 dias de estudo... pouco né?
+* [x] Dia 7 concluído
+* só falta mais 193 dias de estudo... pouco né?
 
 
 
@@ -244,3 +245,42 @@ public class OperadoresLogicos {
 }
 
 ```
+
+## 📅 Dia 7
+
+
+### Estruturas de Repetição
+
+```java id="g7r1di"
+
+package repeticao.estruturas;
+
+import java.util.Scanner;
+
+public class EstruturasDeRepeticao {
+    public static void main(String[] args) {
+        Scanner inputContador = new Scanner(System.in);
+
+        System.out.println("Um número: ");
+        int contador = inputContador.nextInt();
+
+        if (contador < 10 && contador >= 0) {
+            while (contador <= 10) {
+                System.out.println("Seu contador agora é: " + contador);
+                contador++;
+            }
+        } else {
+            while (contador >= 0) {
+                System.out.println("Seu contador agora é: " + contador);
+                contador--;
+            }
+
+        }
+
+
+
+    }
+}
+
+```
+
