@@ -1,0 +1,1 @@
+package arrays.praticando.aprendendo;public class ArraysNoJava {    public static void main(String[] args) {        int[] idades = new int[3];        idades[0] = 10;        System.out.println(idades[0]);    }}
