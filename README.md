@@ -295,6 +295,7 @@ você está apontando pra um espaço de memoria e falando "olha java, é pra lá
 o array cria para a memoria você consegue guardar diversos valores em apenas um array que você pode definir quantas posições tem
 começando do 0 e indo até onde você definir exemplo
 
+```java id="g7r1di"
 public class ArraysNoJava {
 	public static void main(String[] args) {
 		int[] idades = new int[3];
@@ -306,16 +307,22 @@ public class ArraysNoJava {
 	System.out.println(idades[2])
 	}
 }
+```
 
-* um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex
 
+# um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex:
+
+```java id="g7r1di"
 String[] nomes = new String[2]
+```
 
-você pode at[e colocar '[]' depois, exemplo no nome do array como:
+# você pode até colocar '[]' depois, exemplo no nome do array como:
 
+```java id="g7r1di"
 String nomes[] = new String[2]
+```
 
-porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
+# porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
 
 
 ### Exercicios pra treinar array no java com loops de repetição for:
