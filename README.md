@@ -310,15 +310,19 @@ public class ArraysNoJava {
 ```
 
 
-* um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex
+# um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex:
 
+```java id="g7r1di"
 String[] nomes = new String[2]
+```
 
-você pode at[e colocar '[]' depois, exemplo no nome do array como:
+# você pode até colocar '[]' depois, exemplo no nome do array como:
 
+```java id="g7r1di"
 String nomes[] = new String[2]
+```
 
-porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
+# porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
 
 
 ### Exercicios pra treinar array no java com loops de repetição for:
