@@ -11,7 +11,8 @@
 * [x] Dia 6 concluído
 * [x] Dia 7 concluído
 * [x] Dia 8 concluído
-* só falta mais 192 dias de estudo... pouco né?
+* [x] Dia 9 concluído
+* só falta mais 191 dias de estudo... pouco né?
 
 
 
@@ -295,7 +296,6 @@ você está apontando pra um espaço de memoria e falando "olha java, é pra lá
 o array cria para a memoria você consegue guardar diversos valores em apenas um array que você pode definir quantas posições tem
 começando do 0 e indo até onde você definir exemplo
 
-```java id="g7r1di"
 public class ArraysNoJava {
 	public static void main(String[] args) {
 		int[] idades = new int[3];
@@ -307,22 +307,16 @@ public class ArraysNoJava {
 	System.out.println(idades[2])
 	}
 }
-```
 
+* um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex
 
-# um fator importante é que quando declarado um array no java, os '[]' devem ficar logo após a declaração do tipo do array ex:
-
-```java id="g7r1di"
 String[] nomes = new String[2]
-```
 
-# você pode até colocar '[]' depois, exemplo no nome do array como:
+você pode at[e colocar '[]' depois, exemplo no nome do array como:
 
-```java id="g7r1di"
 String nomes[] = new String[2]
-```
 
-# porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
+porém isso não é uma boa pratica, simplesmente porque sim... Não é uma boa pratica.
 
 
 ### Exercicios pra treinar array no java com loops de repetição for:
@@ -353,3 +347,37 @@ public class ExercicioArray{
 }
 
 ```
+
+
+## 📅 Dia 9
+
+### Novamente falando sobre arrays no java:
+
+existe no java uma forma de simplificar a declaração dos arrays e colocar oque vai ter dentro dele em apenas uma linha:
+
+```java id="g7r1di"
+
+package arrays.praticando.aprendendo;
+
+import java.util.Arrays;
+
+public class ArraysEForEach {
+    public static void main(String[] args) {
+        int[] numeros = {1, 2 , 3 , 4 , 5};
+        String[] nomeNinjas = {"Naruto uzumaki", "Sakura Haruno", "Sasuke Uchiha"};
+
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println(numeros[i]);
+
+        }
+
+        for (int c = 0; c < nomeNinjas.length; c++) {
+            System.out.println(nomeNinjas[c]);
+        }
+    }
+}
+
+```
+
+Assim como no exemplo acima que eu declarei o array que é uma referencia pra um lugar na memoria, e quando eu criei essa referen
+cia, na mesma linha de declaração eu coloquei direto os valores que devem estar dentro dele.
