@@ -381,3 +381,20 @@ public class ArraysEForEach {
 
 Assim como no exemplo acima que eu declarei o array que é uma referencia pra um lugar na memoria, e quando eu criei essa referen
 cia, na mesma linha de declaração eu coloquei direto os valores que devem estar dentro dele.
+
+
+
+
+### Ao inves de ficar percorrendo o array no java usando o for comum igual a um primata, basta usar o for each para percorrer
+o array de forma mais limpa e facil de entender. A sintaxe dele é muito simples e o modo em que ele percorre o array se assemelha com o for of no java script:
+
+```java id="g7r1di"
+
+        for (int i:numeros){
+            System.out.println(i + " Usando for each");
+        }
+
+```
+
+
+
