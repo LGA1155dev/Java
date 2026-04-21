@@ -397,4 +397,29 @@ o array de forma mais limpa e facil de entender. A sintaxe dele é muito simples
 ```
 
 
+### Arrays multidimenssionais (a desgrama do java):
+
+Arrays multidimensionais são basicamente arrays dentro de arrays no java. Um array é uma referencia na memoria correto? Um array multidimensional vai apontar pra onde está o outro array (o que está dentro dele) na memoria por isso quando por exemplo
+fazemos esse codigo, exibe uma localização de memoria inclusive pra declarar um array multidimensinal deve se usar dois colchetes como no exemplo abaixo, que retorna uma localização do array dentro dela na memoria:
+
+
+
+```java id="g7r1di"
+
+        public class ArraysMultidimensionais {
+		
+		public static void main(String[] args){
+			
+			int[][] numerosMulti = new int[1][1];
+
+        		numeros[0][0] = 1;
+
+        		System.out.println(numeros[0]);
+	}
+}
+
+```
+
+nesse exemplo acima que peço pra exibir apenas o array principal numeros em seu indice 0 ele me referencia para um lugar da memoria onde está o array dentro dele que declarei acima.
+
 

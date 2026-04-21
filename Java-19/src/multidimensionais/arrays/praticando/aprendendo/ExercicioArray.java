@@ -1,0 +1,1 @@
+package multidimensionais.arrays.praticando.aprendendo;public class ExercicioArray {    public static void main(String[] args) {        int[] numeros = new int[3];        numeros[0] = 10;        numeros[1] = 20;        numeros[2] = 30;        for (int i = (numeros.length - 1); i >= 0; i--) {            System.out.println(numeros[i]);        }    }}
