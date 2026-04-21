@@ -422,4 +422,9 @@ fazemos esse codigo, exibe uma localização de memoria inclusive pra declarar u
 
 nesse exemplo acima que peço pra exibir apenas o array principal numeros em seu indice 0 ele me referencia para um lugar da memoria onde está o array dentro dele que declarei acima.
 
+representando arrays multidimensionais com desenhos ficaria assim:
+
+<img width="818" height="664" alt="arraysMulti" src="https://github.com/user-attachments/assets/14a304e0-b8c8-4905-9616-ae89f18123aa" />
+
+
 
