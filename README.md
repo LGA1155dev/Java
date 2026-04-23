@@ -12,7 +12,8 @@ c# 📚 Aprendendo Java e documentando as ferramentas
 * [x] Dia 7 concluído
 * [x] Dia 8 concluído
 * [x] Dia 9 concluído
-* só falta mais 191 dias de estudo... pouco né?
+* [x] Dia 10 concluído
+* só falta mais 190 dias de estudo... pouco né?
 
 
 
@@ -421,11 +422,6 @@ fazemos esse codigo, exibe uma localização de memoria inclusive pra declarar u
 ```
 
 nesse exemplo acima que peço pra exibir apenas o array principal numeros em seu indice 0 ele me referencia para um lugar da memoria onde está o array dentro dele que declarei acima.
-
-representando arrays multidimensionais com desenhos ficaria assim:
-
-<img width="818" height="664" alt="arraysMulti" src="https://github.com/user-attachments/assets/14a304e0-b8c8-4905-9616-ae89f18123aa" />
-
 
 
 
