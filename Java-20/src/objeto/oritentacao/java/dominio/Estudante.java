@@ -1,0 +1,1 @@
+package objeto.oritentacao.java.dominio;public class Estudante {    public String nome;    public int idade;    public char sexo;}

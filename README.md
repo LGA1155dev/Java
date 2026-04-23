@@ -1,4 +1,4 @@
-# 📚 Aprendendo Java e documentando as ferramentas
+c# 📚 Aprendendo Java e documentando as ferramentas
 
 
 ## 📈 Progresso
@@ -421,5 +421,46 @@ fazemos esse codigo, exibe uma localização de memoria inclusive pra declarar u
 ```
 
 nesse exemplo acima que peço pra exibir apenas o array principal numeros em seu indice 0 ele me referencia para um lugar da memoria onde está o array dentro dele que declarei acima.
+
+
+
+## 📅 Dia 10
+
+### Introdução a OOP
+
+a orientação a objeto tenta trazer elementos reais do mundo, para o computador atraves de objetos, exemplo, pode se representar um estudando, um animal ou etc... Para fazer um objeto no java é simples, você cria uma classe com o nome do objeto que quer criar exemplo :
+
+Estudante, que está dentro do package = objeto.orientacao.java.dominio
+
+dentro dessa class vamos conter o nosso objeto estudante:
+
+```java id="g7r1di"
+public class Estudante {
+	public String nome;
+	public int idade;
+	public char sexo;
+}
+```
+
+só com esse codigo você consegue definir a criação do nome do objeto, idade, e sexo, porém para acessa-lo e defini-lo seja o nome, ou idade ou sexo. Deve se criar uma outra class para test exemplo :
+
+EstudanteTest, que esta dentro do package = objeto.orientacao.java.test
+
+dentro dessa class você importa a class Estudante e atribui cada parametro do objeto, nome, idade, sexo... exemplo:
+
+```java id="g7r1di"
+
+import package objeto.orientacao.java.dominio.Estudante;
+
+public class EstudanteTest {
+	public static void main (String[] args) {
+		Estudante.nome = "Gabriel";
+		Estudante.idade = 15;
+		Estudante.sexo = 'm';
+	}
+}
+
+```
+  
 
 
