@@ -455,9 +455,11 @@ import package objeto.orientacao.java.dominio.Estudante;
 
 public class EstudanteTest {
 	public static void main (String[] args) {
-		Estudante.nome = "Gabriel";
-		Estudante.idade = 15;
-		Estudante.sexo = 'm';
+		Estudante estudante = new Estudante();
+		estudante.nome = "Gabriel";
+		estudante.idade = 15;
+		estudante.sexo = 'm';
+		
 	}
 }
 
