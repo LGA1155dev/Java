@@ -464,6 +464,13 @@ public class EstudanteTest {
 }
 
 ```
+
+
+A representação grafica para meu objeto ficaria assim :
+
+<img width="707" height="616" alt="OOP" src="https://github.com/user-attachments/assets/f550f5b2-1de4-4c19-b66d-3aa50d429603" />
+
+
   
 
 
