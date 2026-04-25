@@ -314,7 +314,7 @@ public class ArraysNoJava {
 
 String[] nomes = new String[2]
 
-você pode at[e colocar '[]' depois, exemplo no nome do array como:
+você pode ate colocar '[]' depois, exemplo no nome do array como:
 
 String nomes[] = new String[2]
 
@@ -466,9 +466,17 @@ public class EstudanteTest {
 
 ```
 
+
 ## 📅 Dia 11
 
 ### Coesão no java OOP
+=======
+
+A representação grafica para meu objeto ficaria assim :
+
+<img width="707" height="616" alt="OOP" src="https://github.com/user-attachments/assets/f550f5b2-1de4-4c19-b66d-3aa50d429603" />
+
+
 
 
 
