@@ -551,3 +551,8 @@ public Uno {
 
 }
 ```
+
+### A representação grafica desses dois objetos criados a partir da classe carro seria:
+
+<img width="1080" height="595" alt="objetos" src="https://github.com/user-attachments/assets/7d74c5a1-0ff4-4ac1-8ac3-5c8e177ec9d2" />
+
