@@ -22,6 +22,8 @@
       <module fileurl="file://$PROJECT_DIR$/Java-18/Java-18.iml" filepath="$PROJECT_DIR$/Java-18/Java-18.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-19/Java-19.iml" filepath="$PROJECT_DIR$/Java-19/Java-19.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-20/Java-20.iml" filepath="$PROJECT_DIR$/Java-20/Java-20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-21/Java-21.iml" filepath="$PROJECT_DIR$/Java-21/Java-21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-22/Java-22.iml" filepath="$PROJECT_DIR$/Java-22/Java-22.iml" />
     </modules>
   </component>
 </project>

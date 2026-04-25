@@ -1,0 +1,1 @@
+package objeto.kaua.dominio;public class Kaua {    public String apelido;    public String status;    public String statusCivil;    public int idade;    public char sexo;}

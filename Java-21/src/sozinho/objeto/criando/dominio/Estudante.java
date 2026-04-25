@@ -1,0 +1,1 @@
+package sozinho.objeto.criando.dominio;public class Estudante {    public String nome = "Gabriel";    public int idade;    public char sexo;}

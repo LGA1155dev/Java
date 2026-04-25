@@ -13,7 +13,8 @@ c# 📚 Aprendendo Java e documentando as ferramentas
 * [x] Dia 8 concluído
 * [x] Dia 9 concluído
 * [x] Dia 10 concluído
-* só falta mais 190 dias de estudo... pouco né?
+* [x] Dia 11 concluído
+* só falta mais 189 dias de estudo... pouco né?
 
 
 
@@ -464,6 +465,35 @@ public class EstudanteTest {
 }
 
 ```
-  
+
+## 📅 Dia 11
+
+### Coesão no java OOP
 
 
+
+Coesão no java nada mais é do que a organização das classes para não haver confusão, exemplo ao invês de criar um classe estudante com os atributos de nome, idade, sexo... e dentro dessa mesma classe criar atributos para um professor exemplo 
+public String nomePofessor, public int idadeProfessor, public char sexoProfessor. Isso deixaria o codigo muito bagunçado além 
+de não ser uma boa pratica, ao inves disso criar classes separadas para cada objeto. Exemplo:
+
+
+```java id="g7r1di"
+
+
+public class Estudante {
+		public String nome;
+		public int idade;
+		public char sexo;
+		
+}
+```
+
+```java id="g7r1di"
+
+public class Professor {
+		public String nome;
+		public int idade;
+		public char sexo;
+		
+}
+```
