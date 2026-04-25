@@ -556,3 +556,62 @@ public Uno {
 
 <img width="1080" height="595" alt="objetos" src="https://github.com/user-attachments/assets/7d74c5a1-0ff4-4ac1-8ac3-5c8e177ec9d2" />
 
+
+
+### Quando um objeto é criado ele referencia a um espaço na memoria exemplo:
+
+
+```java id="g7r1di"
+
+package pratica.na.oop.estudando;
+import pratica.na.oop.estudando.domain.Student;
+
+public class StudentTest {
+
+	public static void main (String[] args){
+		Student student01 = new Student();
+		Student student02 = new Student();
+
+		student01.name = "gabriel";
+		student01.age = 15;
+		student01.sex = 'm';
+
+		student02.name = "yasmin";
+		student02.age = 15;
+		student02.sex = 'f';
+
+	}
+}
+
+```
+
+### Nesse caso o student01 e student02 estão referenciando para os seus atributos: nome, idade... que estão em memoria, e para fazer com que por exemplo o student01 referencie para o student02 é simples, basta fazer com que o student01 receba student02 assim o student01 referenciará para o student02 exemplo:
+
+```java id="g7r1di"
+
+package pratica.na.oop.estudando;
+import pratica.na.oop.estudando.domain.Student;
+
+public class StudentTest {
+	public static void main (String[] args){
+		Student student01 = new Student();
+
+		student01.name = "gabriel";
+		student01.age = 15;
+		student01.sex = 'm';
+
+		student01 = student02;
+
+		student02.name = "yasmin";
+		student02.age = 15;
+		student02.sex = 'f';
+	}
+}
+```
+
+### a representação grafica disso é mais ou menos isso:
+
+<img width="1229" height="629" alt="referencerOOP" src="https://github.com/user-attachments/assets/a872319c-47c4-4a29-a86b-23a5f2b50999" />
+
+
+	
