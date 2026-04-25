@@ -1,4 +1,4 @@
-c# 📚 Aprendendo Java e documentando as ferramentas
+# 📚 Aprendendo Java e documentando as ferramentas
 
 
 ## 📈 Progresso
@@ -506,5 +506,47 @@ public class Professor {
 		public int idade;
 		public char sexo;
 		
+}
+```
+
+
+
+# Exercicio OOP java:
+
+### O objetivo é criar uma classe carro com os atributos nome, modelo, e ano de lançamento e depois criar dois objetos distintos seguindo essa classe carro:
+
+
+```java id="g7r1di"
+
+package classes.oop.aprendendo.domain;
+
+public Carro {
+	public String nome;
+	public String modelo;
+	public int ano;
+}
+```
+
+
+```java id="g7r1di"
+
+
+package classes.oop.aprendendo.test;
+
+import classes.oop.aprendo.domain.Carro
+
+public Uno {
+
+	public static void main (String[] args){
+
+		Carro uno = new Carro();
+		uno.nome = "Uno"
+		uno.modelo = "Fiat Uno";
+		uno.ano = 2015;
+
+	String imprimir = String.format("O nome do carro é %s o modelo é %s e o ano de lançamento é %d", uno.nome, uno.modelo, uno.ano);
+
+	}
+
 }
 ```
