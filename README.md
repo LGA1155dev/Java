@@ -545,6 +545,7 @@ public Uno {
 		uno.ano = 2015;
 
 	String imprimir = String.format("O nome do carro é %s o modelo é %s e o ano de lançamento é %d", uno.nome, uno.modelo, uno.ano);
+	System.out.println(imprimir);
 
 	}
 
