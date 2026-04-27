@@ -1,1 +1,1 @@
-package metodos.objeto.orientacao.test;import metodos.objeto.orientacao.dominio.Calculadora;public class CaculadoraTest {    public static void main(String[] args) {        Calculadora calculadora = new Calculadora();        calculadora.somaDoisNumeros(10, 20);    }}
+package metodos.objeto.orientacao.test;import metodos.objeto.orientacao.dominio.Calculadora;public class CaculadoraTest {    public static void main(String[] args) {        Calculadora calculadora = new Calculadora();        calculadora.somaDoisNumeros(10, 20);    }}
