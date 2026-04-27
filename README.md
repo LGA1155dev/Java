@@ -591,3 +591,43 @@ public class CalculadoraTest {
 }
 
 ```
+
+
+
+### Parametros de metodos no java OOP
+
+os parametros nada mais são do que variaveis locais que guardam informações e que após a ação do codigo elas sumirão, ou seja só funcionam naquele instante da ação, depois da ação não existe mais os parametros.
+
+
+exemplo de parametros são:
+
+
+```java id="g7r1di"
+
+package pratica.na.metodos.objetos.orientacao.domain;
+
+public class JuntaodorDeNomes {
+
+	public void JuntadorDeNomes(nome1, nome2) {
+		System.out.println(nome1 + " and " + nome2 + " juntei os nomes");
+	}
+}
+
+
+```
+
+```java id="g7r1di"
+
+import pratica.na.metodos.objetos.orientacao.domain.JuntadorDenomes;
+
+package pratica.na.metodos.objetos.orientacao.test;
+
+public class JuntadorDeNomesTest {
+	
+	public static void main (String[] args) {
+		JuntadorDeNomes juntadordenomes = new JuntadorDeNomes();
+	}
+}
+
+```
+
