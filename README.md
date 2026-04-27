@@ -625,7 +625,8 @@ package pratica.na.metodos.objetos.orientacao.test;
 public class JuntadorDeNomesTest {
 	
 	public static void main (String[] args) {
-		JuntadorDeNomes juntadordenomes = new JuntadorDeNomes();
+		JuntadorDeNomes juntadordenomes = new JuntadorDeNomes();]
+		juntadordenomes.JuntaodorDeNomes("gabriel", "yasmin")
 	}
 }
 
