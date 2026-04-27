@@ -1,0 +1,1 @@
+package pratica.na.metodos.com.objetos.orientacao.domain;public class JuntadorDeNomes {    public void juntadorDeNomes (String nome1, String nome2){        System.out.println(nome1 +" and "+ nome2 + " juntei os nomes");    }}

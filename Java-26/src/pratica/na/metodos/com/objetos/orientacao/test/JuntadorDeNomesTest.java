@@ -1,0 +1,1 @@
+package pratica.na.metodos.com.objetos.orientacao.test;import pratica.na.metodos.com.objetos.orientacao.domain.JuntadorDeNomes;public class JuntadorDeNomesTest {    public static void main(String[] args) {        JuntadorDeNomes juntadordenomes = new JuntadorDeNomes();        juntadordenomes.juntadorDeNomes("gabriel", "yasmin");    }}
