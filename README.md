@@ -14,7 +14,8 @@
 * [x] Dia 9 concluído
 * [x] Dia 10 concluído
 * [x] Dia 11 concluído
-* só falta mais 189 dias de estudo... pouco né?
+* [x] Dia 12 concluído
+* só falta mais 188 dias de estudo... pouco né?
 
 
 
@@ -550,4 +551,43 @@ public Uno {
 	}
 
 }
+```
+
+
+
+## 📅 Dia 12
+
+
+### Métodos no java - OOP
+
+metdodos no java são bem parecidos com functions no java script, metodos são ações que serão tomadas no codigo que só serão executadas quando chamadas. Para fazer isso, usa-se o metodo void, metodo vazio que não retorna nada. Ele imprime algo no console, porém não retorna nada para quem está chamando.
+
+
+exemplo:
+
+```java id="g7r1di"
+
+package metodos.objeto.orientacao.domain
+
+
+public class Calculadora {
+	public void somaNumeros (int num1, int num2){
+
+		System.out.println(num1 + num2);
+
+	}
+
+```
+
+```java id="g7r1di"
+
+
+package metodos.objeto.orientacao.test
+
+public class CalculadoraTest {
+	public static void main (String[] args) {
+		Calculadora calculadora = new Calculadora();
+		calculadora.somaNumeros(10, 20);
+}
+
 ```
