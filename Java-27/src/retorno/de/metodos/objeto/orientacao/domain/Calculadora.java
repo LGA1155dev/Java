@@ -1,0 +1,1 @@
+package retorno.de.metodos.objeto.orientacao.domain;public class Calculadora {    public double dividirNumeros(double num1, double num2){        return num1 / num2;    }}

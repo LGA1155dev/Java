@@ -15,7 +15,8 @@
 * [x] Dia 10 concluído
 * [x] Dia 11 concluído
 * [x] Dia 12 concluído
-* só falta mais 188 dias de estudo... pouco né?
+* [x] Dia 13 concluído
+* só falta mais 187 dias de estudo... pouco né?
 
 
 
@@ -608,7 +609,7 @@ package pratica.na.metodos.objetos.orientacao.domain;
 
 public class JuntaodorDeNomes {
 
-	public void JuntadorDeNomes(nome1, nome2) {
+	public void JuntadorDeNomes(String nome1,String nome2) {
 		System.out.println(nome1 + " and " + nome2 + " juntei os nomes");
 	}
 }
@@ -632,3 +633,47 @@ public class JuntadorDeNomesTest {
 
 ```
 
+
+
+## 📅 Dia 13
+
+
+### Métodos de retorno
+
+os metodos de retorno funcionam diferentes do metodo void que não retorna nada, nos metodos de retorno como o nome já diz, você pode retornar valores nele, basta o seguinte, você especificar o tipo do valor ou dos valores que serão retornados. Exemplo pratico:
+
+
+```java id="g7r1di"
+
+package retorno.de.metodos.objeto.orientacao.domain;
+
+public class Calculadora {
+	
+	public double dividirNumeros(double num1, double num2) {
+		
+		return num1 / num2;
+	}
+}
+
+```
+
+```java id="g7r1di"
+
+package retorno.de.metodos.objeto.orientacao.test;
+import retorno.de.metodos.objeto.orientacao.domain.Calculadora;
+
+public class CalculadoraTest {
+	
+	public static void main (String[] args) {
+		
+		Calculadora calculadora = new Calculadora;
+		calculadora.dividirNumeros(20, 10)
+
+	// Repare que se eu somente tentar isso acima (chamar o metodo e passar os argumentos) não vai funcionar, já que o metodo está retornando valores e não imprimindo-os na  tela, então pra isso tenho que dar um System.out.println para ver o retorno desse metodo:
+
+
+		System.out.println(calculadora.dividirNumeros(20, 10));
+	}
+}
+
+```
