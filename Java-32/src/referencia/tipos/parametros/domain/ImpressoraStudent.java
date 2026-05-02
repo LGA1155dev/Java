@@ -1,0 +1,1 @@
+package referencia.tipos.parametros.domain;public class ImpressoraStudent {    public void imprimir (Student student) {        System.out.println(student.nome);        System.out.println(student.idade);        System.out.println(student.sexo);        System.out.println("-------------");    }}

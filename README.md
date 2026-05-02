@@ -17,7 +17,8 @@
 * [x] Dia 12 concluído
 * [x] Dia 13 concluído
 * [x] Dia 14 concluído
-* só falta mais 186 dias de estudo... pouco né?
+* [x] Dia 15 concluído
+* só falta mais 185 dias de estudo... pouco né?
 
 
 
@@ -728,3 +729,114 @@ public class CalculadoraTest02 {
 }
 
 ```
+
+
+## 📅 Dia 14
+
+### Novamente falando sobre parametros com tipos de referencia.
+
+
+parametros de referencia é basicamente eu fazer com que os parametros ou o parametro aponte pra um mesmo objeto que outra variavel está apontando. Exemplo fazer com que a
+minha variavel student apontar pro mesmo objeto que minha variavel student01 está apontando uma base do que estou tentando dizer é isso:
+
+```java id="g7r1di"
+
+public class Student {
+
+	public String nome;
+	public int idade;
+	public char sexo;
+
+}
+
+```
+
+
+logo após criar minha classe Student, eu defini atributos como nome, idade e sexo.
+agora iremos criar nossos dois objeto, irei a partir dessa classe criar um objeto chamado student01 que vai fazer referência para um 
+objeto no caso vou declarar a variavel student01 e criar um objeto:
+
+```java id="g7r1di"
+
+public class StudentTest {
+
+	public static void main (String[] args){
+		
+		Student student01 = new Student();
+		Student student02 = new Student();
+
+		student01.nome = "gabriel";
+		student01.idade = 15;
+		student01.sexo = 'm';
+
+		student02.nome = "yasmin";
+		student02.idade = 18;
+		student02.sexo = 'f';
+		
+		
+
+	}
+}
+
+
+
+ 
+```
+
+apos ter criado dois objetos distintos, o student01 e o student02 agora irei imprimilos na tela, eu até poderia ficar fazendo um System.out.println(student01.nome...) mas 
+existe uma forma melhor para que  eu faça isso e que eu economizo bastante linhas de codigo, (valorizo clean code) que é fazer uma classe com o nome ImpressoraStudent e nesta
+classe criar um metodo com um parametro (variavel local) criado a partir da classe Student que eu já mostrei anteriormente que aponte para o mesmo objeto que cada student está apontando, um exemplo pratico é:
+
+```java id="g7r1di"
+
+public class ImpressoraStudent {
+
+	public void imprimir (Student student) {
+
+		System.out.println(student.nome);
+		System.out.println(student.idade);
+		System.out.println(student.sexo);
+		System.out.println("---------------");
+	
+	}
+}
+
+```
+
+feito isso agora é só chamar o metodo imprimir e colocar como argumento o student01, e logo apos o student02:
+
+
+
+
+```java id="g7r1di"
+
+public class StudentTest {
+
+        public static void main (String[] args){
+
+                Student student01 = new Student();
+                Student student02 = new Student();
+		ImprimirStudent imprimir = ImprimirStudent();
+
+                student01.nome = "gabriel";
+                student01.idade = 15;
+                student01.sexo = 'm';
+
+                student02.nome = "yasmin";
+                student02.idade = 18;
+                student02.sexo = 'f';
+		
+		imprimir.imprimir(student01);
+		imprimir.imprimir(student02);	
+
+
+        }
+}
+
+
+
+ 
+```
+
+
+e agora sim, o parametro da função (metodo) está fazendo referencia para o mesmo objeto do meu argumento.
