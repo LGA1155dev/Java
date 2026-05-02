@@ -1,0 +1,1 @@
+package exercicios.oop.java.domain;public class MaiorNum {    public int verMaior(int num1, int num2, int num3, int maior){        if (num1 > num2 && num1 > num3)            maior = num1;        else if (num2 > num1 && num2 > num3)            maior = num2;        else if (num3 > num1 && num3 > num2)            maior = num3;        return maior;    }}

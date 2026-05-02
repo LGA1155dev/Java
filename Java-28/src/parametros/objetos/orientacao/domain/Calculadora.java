@@ -1,0 +1,1 @@
+package parametros.objetos.orientacao.domain;public class Calculadora {}

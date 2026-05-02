@@ -1,0 +1,1 @@
+package pratica.na.metodos.objeto.orientacao.test;import pratica.na.metodos.objeto.orientacao.domain.Student;import java.util.Scanner;public class StudentTest {    public static void main(String[] args) {        Student student = new Student();        student.notaStudent(3.9,  5.3, 8.7);    }}

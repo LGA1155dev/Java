@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.ParOuImpar;public class ParOuImparTest {    public static void main(String[] args) {        ParOuImpar verificarParOuImpar = new ParOuImpar();        System.out.println(verificarParOuImpar.parOuImpar(10));    }}

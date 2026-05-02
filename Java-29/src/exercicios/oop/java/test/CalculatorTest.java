@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.Calculator;public class CalculatorTest {    public static void main(String[] args) {        Calculator soma = new Calculator();        System.out.println(soma.somaNumeros(10, 20));    }}

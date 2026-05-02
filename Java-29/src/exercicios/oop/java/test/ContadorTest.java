@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.Contador;public class ContadorTest {    public static void main(String[] args) {        Contador contadorNums = new Contador();        contadorNums.contador(10);    }}

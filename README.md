@@ -16,7 +16,8 @@
 * [x] Dia 11 concluído
 * [x] Dia 12 concluído
 * [x] Dia 13 concluído
-* só falta mais 187 dias de estudo... pouco né?
+* [x] Dia 14 concluído
+* só falta mais 186 dias de estudo... pouco né?
 
 
 
@@ -673,6 +674,56 @@ public class CalculadoraTest {
 
 
 		System.out.println(calculadora.dividirNumeros(20, 10));
+	}
+}
+
+```
+
+
+## 📅 Dia 14
+
+
+### OOP Java - Métodos - Parâmetros tipo primitivo
+
+no java quando você faz o uso de parametros eles são variaveis locais que não interferem em variaveis normais
+
+um exemplo está abaixo em que eu faço um metodo chamado alteraNums com os parametros num1 e num2 e faço com que o num1 da minha variavel int permanente que está no CalculadoraTest02 vire 99, e o num2 vire 33 e quando eu chamo o metodo realmente aparece o num1 como 99 e o num2 como 33 porém eles são copias não referencias, já que quando eu exibo na tela o num1 e num2 (variaveis normais) continua me retornando que num1 é igual a 1 e num2 é igual a 2 ou seja não foi estabelecido nenhum tipo de referencia.
+
+ 
+```java id="g7r1di"
+
+package metodos.primitivos.tipos.parametros.domain;
+
+public class Calculadora {
+
+	public void alteraNums(int num1, int num2) {
+		
+		num1 = 99;
+		num2 = 33;
+		System.out.println("Números alterados com sucesso!");
+		system.out.println("num1: " + num1 + " num2: " + num2); 
+	
+	}
+}
+```
+
+```java id="g7r1di"
+
+package metodos.primitivos.tipos.parametros.test;
+import metodos.primitvos.tipos.parametros.domain.Calculadora;
+
+public class CalculadoraTest02 {
+	
+	public static void main(String[] args){
+		
+		int num1 = 1;
+		int num2 = 2;
+
+
+	Calculadora calculadora = new Calculadora();
+	calculadora.alteraNums(num1, num2);
+	System.out.println("Num1: " + num1 + " Num2 " + num2); 
+	
 	}
 }
 

@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.MaiorNum;public class MaiorNumTest {    public static void main(String[] args) {        MaiorNum verMaior = new MaiorNum();        System.out.println(verMaior.verMaior(10, 80, 30, 10));    }}

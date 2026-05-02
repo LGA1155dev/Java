@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.Calculator;public class CalculatorTest03 {    public static void main(String[] args) {        Calculator multiply = new Calculator();        System.out.println(multiply.multiplyNums(10, 20));    }}

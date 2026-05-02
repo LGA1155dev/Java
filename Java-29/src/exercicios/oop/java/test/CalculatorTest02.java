@@ -1,0 +1,1 @@
+package exercicios.oop.java.test;import exercicios.oop.java.domain.Calculator;public class CalculatorTest02 {    public static void main(String[] args) {        Calculator subtrair = new Calculator();        System.out.println(subtrair.subtrairNumeros(30, 20));    }}
