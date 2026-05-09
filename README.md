@@ -18,7 +18,8 @@
 * [x] Dia 13 concluído
 * [x] Dia 14 concluído
 * [x] Dia 15 concluído
-* só falta mais 185 dias de estudo... pouco né?
+* [x] Dia 16 concluído
+* só falta mais 184 dias de estudo... pouco né?
 
 
 
@@ -840,3 +841,84 @@ public class StudentTest {
 
 
 e agora sim, o parametro da função (metodo) está fazendo referencia para o mesmo objeto do meu argumento.
+
+
+
+
+
+## 📅 Dia 16
+
+
+Parametros tipo referência
+
+
+tem como eu simplesmente alterar a referencia do atributo do objeto e mesmo eu mandando printar ele fora do metodo (no test) ele ainda me retorna o nome gohan pois o student do imprimir student está fazendo referencia ao mesmo objeto que o student01 ou 02 que eu colocar no test, ou seja se eu fizer uma alteração no metodo vai alterar a referencia dos student01 e 02 por estarem referenciando ao mesmo objeto que o student.
+
+```java id="g7r1di"
+
+
+package referencia.tipo.parametros.estudando.domain;
+
+public class Student {
+
+    public String name;
+    public int age;
+    public char sexo;
+
+
+
+}
+```
+
+
+```java id="g7r1di"
+
+
+ package referencia.tipo.parametros.estudando.domain;
+
+public class ImprimeStudent {
+
+    public void ImprimirStudent(Student student){
+        student.name = "Gohan";
+        System.out.println(student.name);
+        System.out.println(student.age);
+        System.out.println(student.sexo);
+        System.out.println("-----------------");
+    }
+
+}
+
+```
+
+```java id="g7r1di"
+
+package referencia.tipo.parametros.estudando.test;
+
+import referencia.tipo.parametros.estudando.domain.ImprimeStudent;
+import referencia.tipo.parametros.estudando.domain.Student;
+
+import java.util.Locale;
+
+public class StudentTest {
+
+    public static void main(String[] args) {
+        Student student01 = new Student();
+        Student student02 = new Student();
+        ImprimeStudent impressao = new ImprimeStudent();
+
+        student01.name = "Gabriel";
+        student01.age = 15;
+        student01.sexo = 'M';
+
+        student02.name = "yasmin";
+        student02.age = 17;
+        student02.sexo = 'F';
+
+        impressao.ImprimirStudent(student01);
+        impressao.ImprimirStudent(student02);
+
+
+    }
+
+}
+```
