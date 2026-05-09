@@ -1,1 +1,1 @@
-package referencia.tipo.parametros.estudando.domain;public class Student {    public String name;    public int age;    public char sexo;}
+package referencia.tipo.parametros.estudando.domain;public class Student {    public String name;    public int age;    public char sexo;    public void imprimir (){        System.out.println(this.name);        System.out.println(this.age);        System.out.println(this.sexo);    }}
