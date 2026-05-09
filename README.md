@@ -926,7 +926,7 @@ public class StudentTest {
 
 ## 📅 Dia 17
 
-###VarArgs
+### VarArgs
 
 varargs nada mais é doque uma sintaxe simplificada para colocar arrays como argumentos, exemplo, normalmente quando eu crio um metodo que tenha um array como parametro normalmente a sintaxe ficaria mais ou menos assim:
 
