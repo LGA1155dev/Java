@@ -1,0 +1,1 @@
+package referencia.tipos.parametros.domain;public class Comidas {    public String nome;    public float preco;    public void vendaComidas(String nomeComida, float precoComida){        System.out.printf("A comida %s está a %f R$", nomeComida, precoComida);    }}
