@@ -19,7 +19,8 @@
 * [x] Dia 14 concluído
 * [x] Dia 15 concluído
 * [x] Dia 16 concluído
-* só falta mais 184 dias de estudo... pouco né?
+* [x] Dia 17 concluído
+* só falta mais 183 dias de estudo... pouco né?
 
 
 
@@ -922,3 +923,72 @@ public class StudentTest {
 
 }
 ```
+
+## 📅 Dia 17
+
+###VarArgs
+
+varargs nada mais é doque uma sintaxe simplificada para colocar arrays como argumentos, exemplo, normalmente quando eu crio um metodo que tenha um array como parametro normalmente a sintaxe ficaria mais ou menos assim:
+
+```java id="g7r1di"
+
+package objetos.orientacao.varargs.domain;
+
+public class Calculadora {
+
+	public void somarNumeros(int[] numeros){
+		
+		int somar = 0;
+		for (int s : numeros){
+			
+			somar += s;
+		}
+	System.out.println(somar);
+	}
+}
+```
+
+A sintaxe normalmente ficaria assim.
+
+já no varargs que é uma mini simplificação a sintaxe e a chamada muda um pouco:
+
+```java id="g7r1di"
+
+package objetos.orientacao.varargs.domain;
+
+public class Calculadora {
+	
+	public void somarNumerosVarArgs(int... numeros) {
+		
+		int soma = 0;
+		
+		for (int s : numeros){
+		
+			somar += s;
+		}
+	System.out.println(somar);
+	}
+}
+```
+
+A vantagem de usar VarArgs é na chamada, onde eu simplesmente posso colocar diretamente todos os números que eu quero na chamada da funçao e o java irá tranformar tudo aquilo em uma lista (array), um exemplo disso que acabei de citar:
+
+
+ 
+```java id="g7r1di"
+
+package objetos.orientacao.varargs.test;
+import objetos.orientacao.varargs.domain.Calculadora;
+
+public class CalculadoraTest {
+
+	public static void main(String[] args) {
+
+		Calculadora calculadora = new  Calculadora();
+		calculadora.somarNumerosVarArgs(1, 2, 3, 4, 5, 6, 7, 8, 9);
+	}
+}
+
+```
+
+
