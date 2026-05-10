@@ -1,0 +1,1 @@
+package objeto.orientacao.exercise.domain;public class ImpressoraFuncionario {}
