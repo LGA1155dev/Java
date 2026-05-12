@@ -20,7 +20,8 @@
 * [x] Dia 15 concluído
 * [x] Dia 16 concluído
 * [x] Dia 17 concluído
-* só falta mais 183 dias de estudo... pouco né?
+* [x] Dia 18 concluído
+* só falta mais 182 dias de estudo... pouco né?
 
 
 
@@ -992,7 +993,7 @@ public class CalculadoraTest {
 ```
 
 
-## 📅 Dia 17
+## 📅 Dia 18
 
 ### Modificadores de acesso, private, get, set
 
