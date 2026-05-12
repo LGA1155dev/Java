@@ -1,0 +1,1 @@
+package acesso.de.modificadores.estudando.test;import acesso.de.modificadores.estudando.domain.Pessoa;public class PessoaTest {     public static void main(String[] args) {        Pessoa pessoa01 = new Pessoa();        pessoa01.setName("gabriel", 15, 'm');        pessoa01.imprimir();    }}
