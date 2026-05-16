@@ -20,7 +20,8 @@
 * [x] Dia 15 concluído
 * [x] Dia 16 concluído
 * [x] Dia 17 concluído
-* só falta mais 183 dias de estudo... pouco né?
+* [x] Dia 18 concluído
+* só falta mais 182 dias de estudo... pouco né?
 
 
 
@@ -991,4 +992,63 @@ public class CalculadoraTest {
 
 ```
 
+
+## 📅 Dia 18
+
+### Modificadores de acesso, private, get, set
+
+Quando criamos uma classe temos a opção de colocar os atributos dela como public ou private, onde o acesse public deixa o atributo totalmente publico
+a qualquer lugar que você tente acessa-lo, já no acesse private o acesso fica privado e você só consegue acessar (modificar) ou atribuir os atributos 
+se você criar um metodo de acesso um exemplo está abaixo, onde eu crio uma classe onde seus atributos estão privados e faço uma função que imprime os
+dados e no final uma função para conseguir modificar os atributos ou atribuir valor a eles:
+
+```java id="g7r1di"
+
+package acesso.de.modificadores.estudando.domain;
+
+public class Pessoa {
+	
+	private String name;
+	private int age;
+	private char sexo;
+
+	public void imprimir(){
+		
+		System.out.println(this.name);
+		System.out.println(this.age);
+		System.out.println(this.sexo);
+	}
+
+	public setName(String name){
+	
+		this.name = name;
+	}		
+}
+
+
+```
+
+o this name eu usei para apontar a variavel que está fora do escopo (da função) ou seja o this sempre é usado quando vamos apontar para uma varivel que
+está fora do escopo do metodo. E coloquei que a variavel name o atributo name recebe a variavel local do metodo chamada name. E quando eu chamar a função
+setName a variavel name irá receber o argumento que coloquei para o metodo setName.
+
+```java id="g7r1di"
+
+package acesso.de.modificadores.estudando.test;
+import acesso.de.modificadores.estudando.domain.Pessoa;
+
+public PessoaTest {
+
+	public static void main(String[] args){
+		
+		Pessoa pessoa01 = new Pessoa();
+		pessoa01.setName("yasmin");
+		pessoa01.imprimir();
+
+	}
+}
+
+```
+
+	
 
