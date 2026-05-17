@@ -21,7 +21,8 @@
 * [x] Dia 16 concluído
 * [x] Dia 17 concluído
 * [x] Dia 18 concluído
-* só falta mais 182 dias de estudo... pouco né?
+* [x] Dia 19 concluído
+* só falta mais 181 dias de estudo... pouco né?
 
 
 
@@ -1050,5 +1051,108 @@ public PessoaTest {
 
 ```
 
+
+## 📅 Dia 19
+
+
+### Ainda aprendendo sobre modificadores de acesso.
+hoje iremos falar sobre o metodo get, sobrecarga de metodos e etc
+
+### Metodo get
+
+o metodo get tem quase a mesma função que o metodo set tem, porém com uma diferença. O metodo set serve pra setar algo a variavel ou seja se eu tenho por exemplo isso aqui:
+
+```java id="g7r1di"
+
+package acesso.de.modificadores.estudando.domain.Pessoa;
+
+public Pessoa {
+
+	private String name;
+	private int age;
+	private char sexo;
+
+	public setName (String name) {
+
+		this.name = name;
+	}
+}
+```
+
+quando eu faço isso eu estou falando "Olha java quero setar meu atributo/variavel nome, e vou ter nesse metodo de setar um parametro chamado name no caso com o mesmo nome de meu atributo, e então quero que pegue aquela variavel name lá do inicio e quero que ela receba o meu parametro name, ou seja oque eu colocar como argumento"
+
+
+
+mas com o metodo get tem uma pequena diferença, como já vimos a tradução de set é bem intuitiva no caso significa setar/atribuir, já o get significa resgatar/pegar;
+
+então se eu uso o metodo get eu estou pedindo para apenas pegar a minha variavel que está privada. E depois eu retorno oque tem dentro dela.
+
+
+exemplo:
+
+```java id="g7r1di"
+
+package acesso.de.modificadores.estudando.domain.Pessoa;
+
+public Pessoa {
+
+	private String name;
+	private int age;
+	private char sexo;
+
+	public getName () {
+	
+		return this.name;
+	}
+}
+
+```
+
+o metodo get na pratica funciona assim, com uma diferença quase nula na questão de sintaxe.
+
+
+## Sobrecarga de metodos
+
+sobrecarga de metodos é basicamente ter um metodo com o mesmo nome do outro porém a quantidade ou o tipo dos parametros são diferentes. Exemplo pratico é: 
+
+
+
+```java id="g7r1di"
+
+package metodos.de.sobrecarga.estudando.domain;
+
+public class Anime {
+
+	private String name;
+	private String type;
+	private String gender;
+	private int episodes;
+
+	public void imprimir () {
+
+		System.out.println(this.name);
+		System.out.println(this.type);
+		System.out.println(this.gender);
+		Sytem.out.println(this.episodes);
+	}
+
+	public void init (String name, String type, int episodes) {
+	
+		this.name = name;
+		this.type = type;
+		this.episodes = episodes;
+	}
+
+	
+	public void init (String name, String type, int episodes, String gender) {
+	
+		this.name = name;
+		this.type = type;
+		this.episodes = episodes;
+		this.gender = gender;
+	}
+
+ 
+```
 	
 

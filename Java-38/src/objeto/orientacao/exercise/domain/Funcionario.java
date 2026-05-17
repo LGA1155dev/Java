@@ -1,0 +1,1 @@
+package objeto.orientacao.exercise.domain;public class Funcionario {    public String name;    public int age;    public double salary;    public void exibirFuncionario(){        System.out.println(this.name);        System.out.println(this.age);        System.out.println(this.salary);    }}
