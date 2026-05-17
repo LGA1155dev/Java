@@ -1,0 +1,1 @@
+package oop.construtores.estudando.test;import oop.construtores.estudando.domain.Anime;public class AnimeTest {    public static void main(String[] args) {        Anime anime = new Anime("naruto", "ação", "ninja", 999);        anime.imprimir();    }}
