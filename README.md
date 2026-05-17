@@ -1144,7 +1144,7 @@ public class Anime {
 	}
 
 	
-	public void init2 (String name, String type, int episodes, String gender) {
+	public void init (String name, String type, int episodes, String gender) {
 	
 		this.name = name;
 		this.type = type;
