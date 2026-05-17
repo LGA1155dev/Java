@@ -1,0 +1,1 @@
+package metodos.de.sobrecarga.estudando.test;import metodos.de.sobrecarga.estudando.domain.Anime;import java.sql.SQLOutput;public class AnimeTest {    public static void main(String[] args) {        Anime anime = new Anime();        //anime.init("naruto", "ação", 999);        anime.init2("naruto", "ação", 999, "ação e batalha");        anime.imprimir();    }}

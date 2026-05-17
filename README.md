@@ -1111,7 +1111,48 @@ public Pessoa {
 o metodo get na pratica funciona assim, com uma diferença quase nula na questão de sintaxe.
 
 
+## Sobrecarga de metodos
+
+sobrecarga de metodos é basicamente ter um metodo com o mesmo nome do outro porém a quantidade ou o tipo dos parametros são diferentes. Exemplo pratico é: 
+
+
+
+```java id="g7r1di"
+
+package metodos.de.sobrecarga.estudando.domain;
+
+public class Anime {
+
+	private String name;
+	private String type;
+	private String gender;
+	private int episodes;
+
+	public void imprimir () {
+
+		System.out.println(this.name);
+		System.out.println(this.type);
+		System.out.println(this.gender);
+		Sytem.out.println(this.episodes);
+	}
+
+	public void init (String name, String type, int episodes) {
+	
+		this.name = name;
+		this.type = type;
+		this.episodes = episodes;
+	}
+
+	
+	public void init2 (String name, String type, int episodes, String gender) {
+	
+		this.name = name;
+		this.type = type;
+		this.episodes = episodes;
+		this.gender = gender;
+	}
 
  
+```
 	
 
