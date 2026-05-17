@@ -1,0 +1,1 @@
+package acesso.de.modificadores.estudando.domain;public class Funcionario {    private String name;    private int age;    private double[] salary;    public void imprimir(){        System.out.println(this.name);        System.out.println(this.age);        System.out.println(this.salary);    }}
