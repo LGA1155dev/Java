@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-02/Java-44/Java-44.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-42/Java-42.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-42/src/bases/to/convert/exercise/domain/ConvertBases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-42/src/bases/to/convert/exercise/test/ConvertBasesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-43/Java-43.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-43/src/inicializacao/de/blocos/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-43/src/inicializacao/de/blocos/test/AnimeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-43/src/oop/exercises/domain/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-43/src/oop/exercises/test/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/domain/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/test/AnimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/test/AnimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="HTML File" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Java-29/src/exercicios/oop/java/domain/Contador.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CGJj6O9H0UVvduA3WH6bXNuqlH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AindaEmTiposPrimitivos.executor": "Run",
+    "Application.AnimeTest.executor": "Run",
+    "Application.AnimeTest01.executor": "Run",
+    "Application.ArraysEForEach.executor": "Run",
+    "Application.ArraysMultidimensionais.executor": "Run",
+    "Application.ArraysMultidimensionais02.executor": "Run",
+    "Application.ArraysMultidimensionaisForEach.executor": "Run",
+    "Application.ArraysNoJava.executor": "Run",
+    "Application.ArraysNoJava02.executor": "Run",
+    "Application.ArraysNoJava03.executor": "Run",
+    "Application.BMW.executor": "Run",
+    "Application.BreakEContinueNoJava.executor": "Run",
+    "Application.BreakNoJava.executor": "Run",
+    "Application.CaculadoraTest.executor": "Run",
+    "Application.CalculadoraTest.executor": "Run",
+    "Application.CalculadoraTest02.executor": "Run",
+    "Application.CalculatorTest.executor": "Run",
+    "Application.CalculatorTest02.executor": "Run",
+    "Application.CalculatorTest03.executor": "Run",
+    "Application.CalculatorTest04.executor": "Run",
+    "Application.ContaBancariaTest.executor": "Run",
+    "Application.ContadorParesUmAteUmMilhao.executor": "Run",
+    "Application.ContadorTest.executor": "Run",
+    "Application.ConvertBasesTest.executor": "Run",
+    "Application.EstruturasCondicionais.executor": "Run",
+    "Application.EstruturasDeRepeticao.executor": "Run",
+    "Application.EstruturasRepeticao.executor": "Run",
+    "Application.EstudanteTest.executor": "Run",
+    "Application.EstudanteTest02.executor": "Run",
+    "Application.ExercicioArray.executor": "Run",
+    "Application.ExercicioArray02.executor": "Run",
+    "Application.ExercicioImposto.executor": "Run",
+    "Application.ExercicioSwitchCaseDiasUteis.executor": "Run",
+    "Application.ExercicioVerificarJogador.executor": "Run",
+    "Application.ExerciciosJava.executor": "Run",
+    "Application.ExerciciosJavaDois.executor": "Run",
+    "Application.ExerciciosNoJava04.executor": "Run",
+    "Application.FuncionarioTest.executor": "Run",
+    "Application.FuncionarioTest01.executor": "Run",
+    "Application.HelloJava.executor": "Run",
+    "Application.Java02.executor": "Run",
+    "Application.Java02OlaDevDojo.executor": "Run",
+    "Application.Java03TiposPrimitives.executor": "Run",
+    "Application.Java03TiposPrimitivos.executor": "Run",
+    "Application.Java03TipsPrimitives.executor": "Run",
+    "Application.Java04TipsPrimitives.executor": "Run",
+    "Application.JuntadorDeNomesTest.executor": "Run",
+    "Application.KauaTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaiorNumTest.executor": "Run",
+    "Application.MiniLoja.executor": "Run",
+    "Application.OperadiresDeAtribuicao.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
+    "Application.OperadoresRelacionais.executor": "Run",
+    "Application.OperadoresTernarios.executor": "Run",
+    "Application.ParOuImparTest.executor": "Run",
+    "Application.PessoaTest.executor": "Run",
+    "Application.StringsNoJava.executor": "Run",
+    "Application.StudantTest.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.SwitchCaseJava.executor": "Run",
+    "Application.Tabuada.executor": "Run",
+    "Application.TabuadaTest.executor": "Run",
+    "Application.TesteComSwing.executor": "Run",
+    "Application.TesteSyntax.executor": "Run",
+    "Application.TiposPrimitivos.executor": "Run",
+    "Application.UnoTest.executor": "Run",
+    "Application.UsuarioTest.executor": "Run",
+    "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
+    "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
+    "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
+    "Application.maratona.dev.dojo.Java03TipsPrimitives.executor": "Run",
+    "Application.objeto.orientacao.exercise.test.FuncionarioTest.executor": "Run",
+    "Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor": "Run",
+    "Application.oop.construtores.estudando.test.AnimeTest.executor": "Debug",
+    "Application.referencia.tipo.parametros.estudando.test.StudentTest.executor": "Run",
+    "Application.referencia.tipos.parametros.test.StudentTest.executor": "Run",
+    "Application.sozinho.objeto.criando.test.EstudanteTest.executor": "Run",
+    "Application.sozinho.objeto.criando.test.EstudanteTest02.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JavaScript Debug.funcionarioDocumentation.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Gabriel/Documents/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Gabriel/Documents/Java/Java-02/Java-44/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\Documents\Java\Java-37\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\Documents\Java\Java-36\src\objeto\orientacao\exercise\domain" />
+      <recent name="C:\Users\Gabriel\Documents\Java\Java-03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnimeTest01">
+    <configuration name="AnimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="metodos.de.sobrecarga.estudando.test.AnimeTest" />
+      <module name="Java-40" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="metodos.de.sobrecarga.estudando.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicializacao.de.blocos.test.AnimeTest01" />
+      <module name="Java-43" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inicializacao.de.blocos.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertBasesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bases.to.convert.exercise.test.ConvertBasesTest" />
+      <module name="Java-42" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bases.to.convert.exercise.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.exercises.test.PessoaTest" />
+      <module name="Java-43" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.exercises.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.construtores.estudando.test.AnimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.construtores.estudando.test.AnimeTest" />
+      <module name="Java-41" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.construtores.estudando.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnimeTest01" />
+      <item itemvalue="Application.PessoaTest" />
+      <item itemvalue="Application.ConvertBasesTest" />
+      <item itemvalue="Application.oop.construtores.estudando.test.AnimeTest" />
+      <item itemvalue="Application.AnimeTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnimeTest01" />
+        <item itemvalue="Application.PessoaTest" />
+        <item itemvalue="Application.ConvertBasesTest" />
+        <item itemvalue="Application.oop.construtores.estudando.test.AnimeTest" />
+        <item itemvalue="Application.AnimeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="" />
+      <created>1776006108143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776006108143</updated>
+      <workItem from="1778367319031" duration="12942000" />
+      <workItem from="1778435441166" duration="5788000" />
+      <workItem from="1778961911375" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-02/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-03/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-04/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-07/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-08/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-09/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-10/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-11/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-12/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-12/src/MiniLoja.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-13/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-14/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-15/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-16/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-17/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-18/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-19/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-20/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-21/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-22/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-23/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-24/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-23/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-24/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-25/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-26/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-27/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-28/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-29/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-31/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-34/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-35/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-35/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-36/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-37/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-39/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-40/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-41/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-42/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-43/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-02/Java-44/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.SecurityException" package="java.lang" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/Java-23/src/java/oop/aprendendendo/dominio/Estudante.java</url>
+          <line>3</line>
+          <properties field="nome" class="java.oop.aprendendendo.dominio.Estudante" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
