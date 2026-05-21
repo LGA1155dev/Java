@@ -23,7 +23,8 @@
 * [x] Dia 18 concluído
 * [x] Dia 19 concluído
 * [x] Dia 20 concluído
-* só falta mais 180 dias de estudo... pouco né?
+* [x] Dia 21 concluído
+* só falta mais 179 dias de estudo... pouco né?
 
 
 
@@ -1224,3 +1225,103 @@ public class AnimeTest {
 Repare que independente do meu codigo sempre irá iniciar o bloco de inicialização primeiro antes de tudo. Eu poderia passar a noite inteira criando objetos e mais objetos exemplo: "Anime anime2 = new Anime(); Anime anime3 = new Anime(); Anime anime4 = new Anime().
 
 Poderia criar quantos objetos eu quiser e também chamar quantos e quantos metodos nesses objetos eu quiser que sempre, REPITO, SEMPRE o bloco de inicialização será executado antes de todos e sempre!
+
+
+
+## 📅 Dia 21
+
+
+### Modificadores estaticos
+
+quando criamos um atributo para uma classa por exemplo pra classe carro, esse atributo ficará isolado apenas no objeto que eu instanciei o valor, exemplo eu crio uma classe clarro com o atributo de velocidadeLimite que o carro pode atingir se eu setar essa velocidade limite por exemplo para 250 todos os objetos que eu iniciar estarão com a velocidade limite de 250 correto? Mas se eu por exemplo modificar a velocidade limite de somente um objeto, vamos supor que seja um objeto com o nome BMW, eu coloco a velocidade limite da bmw como exemplo 290 usando o metodo set, o 290 ficará isolado apenas a velocidade limite da bmw, mas os outros objetos que eu criar voltarão a ter velocidadeLimite de 250, mas se eu simplesmente usar algo chamado modificador static o jogo muda, porque ai o atributo não será mais isolado para o objeto, mas estará fora dele junto com a classe, ou seja se eu trocar a velocidade Limite de um, troca para todos. Um exemplo do que eu estou falando é:
+
+```java id="g7r1di"
+
+package modificador.estatico.domain;
+
+public class Carro {
+
+	private String name;
+	private double velocidadeMaxima;
+	private static double velocidadeLimite = 250;
+
+	public void imprimir () {
+		
+		System.out.println(this.name);
+		System.out.println("velocidadeMaxima: " + velocidadeMaxima);
+		System.out.println("velocidadeLimite: " + velocidadeLimite);
+		System.out.println("-=-=--=-=-=-=-=-=-=-=-=-=-=-");
+
+	}
+
+	
+
+	public Carro (String name, double velocidadeMaxima) {
+
+		this.name = name;
+		this.velocidadeMaxima = velocidadeMaxima;
+
+	}
+
+	public void getName (){
+		
+		return this.name;
+	}
+
+	public void setName (String name){
+		
+		this.name = name;
+	}
+		
+
+	public void getVelocidadeMaxima (){
+		
+		return this.velocidadeMaxima;
+	}
+
+	public void setVelocidadeMaxima (double velocidadeMaxima){
+
+		this.velocidadeMaxima = velocidadeMaxima;
+
+	}
+
+	public void getVelocidadeLimite (){
+		
+		return this.velocidadeLimite;
+	}
+
+	public void setValocidadeLimite(double velocidadeLimite){
+	
+		this.velocidadeLimite = velocidadeLimite;
+
+	}
+}
+
+
+```
+
+
+```java id="g7r1di"
+
+package modificador.estatico.test;
+import modificador.estatico.domain.Carro;
+
+public clas CarroTest {
+
+	public static void main(String[] args){
+		
+		Carro carro01 = new Carro("BMW", 200);
+		Carro carro02 = new Carro("Mercedes benz", 180);
+		Carro carro03 = new Carro("Uno", 140);
+		
+		carro01.setVelocidadeLimite(290);
+		carro01.imprimir();
+		carro02.imprimir();
+		carro03.imprimir();
+		
+	}
+}
+
+
+```
+	

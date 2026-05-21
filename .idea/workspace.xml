@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="" />
+    <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-45/Java-45.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-45/src/modificador/estatico/domain/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-45/src/modificador/estatico/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +75,7 @@
     "Application.CalculatorTest02.executor": "Run",
     "Application.CalculatorTest03.executor": "Run",
     "Application.CalculatorTest04.executor": "Run",
+    "Application.CarroTest.executor": "Run",
     "Application.ContaBancariaTest.executor": "Run",
     "Application.ContadorParesUmAteUmMilhao.executor": "Run",
     "Application.ContadorTest.executor": "Run",
@@ -149,8 +158,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Gabriel/Documents/Java/Java-02/Java-44/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "onboarding.tips.debug.path": "C:/Users/Gabriel/Documents/Java/Java-45/src/Main.java",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -159,6 +168,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\Documents\Java" />
       <recent name="C:\Users\Gabriel\Documents\Java\Java-37\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -166,13 +176,13 @@
       <recent name="C:\Users\Gabriel\Documents\Java\Java-03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimeTest01">
-    <configuration name="AnimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodos.de.sobrecarga.estudando.test.AnimeTest" />
-      <module name="Java-40" />
+  <component name="RunManager" selected="Application.CarroTest">
+    <configuration name="AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inicializacao.de.blocos.test.AnimeTest01" />
+      <module name="Java-43" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="metodos.de.sobrecarga.estudando.test.*" />
+          <option name="PATTERN" value="inicializacao.de.blocos.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicializacao.de.blocos.test.AnimeTest01" />
-      <module name="Java-43" />
+    <configuration name="CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modificador.estatico.test.CarroTest" />
+      <module name="Java-45" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inicializacao.de.blocos.test.*" />
+          <option name="PATTERN" value="modificador.estatico.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +243,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CarroTest" />
       <item itemvalue="Application.AnimeTest01" />
       <item itemvalue="Application.PessoaTest" />
       <item itemvalue="Application.ConvertBasesTest" />
       <item itemvalue="Application.oop.construtores.estudando.test.AnimeTest" />
-      <item itemvalue="Application.AnimeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimeTest01" />
+        <item itemvalue="Application.CarroTest" />
         <item itemvalue="Application.PessoaTest" />
+        <item itemvalue="Application.AnimeTest01" />
         <item itemvalue="Application.ConvertBasesTest" />
         <item itemvalue="Application.oop.construtores.estudando.test.AnimeTest" />
-        <item itemvalue="Application.AnimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -480,6 +490,11 @@
           <url>file://$PROJECT_DIR$/Java-02/Java-44/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-45/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
