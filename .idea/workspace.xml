@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-02/Java-44/Java-44.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-42/Java-42.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-42/src/bases/to/convert/exercise/domain/ConvertBases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-42/src/bases/to/convert/exercise/test/ConvertBasesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-43/Java-43.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-43/src/inicializacao/de/blocos/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-43/src/inicializacao/de/blocos/test/AnimeTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-43/src/oop/exercises/domain/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-43/src/oop/exercises/test/PessoaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/domain/Anime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/test/AnimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-41/src/oop/construtores/estudando/test/AnimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +150,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Gabriel/Documents/Java/Java-02/Java-44/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
