@@ -1,0 +1,1 @@
+package acesso.de.modificadores.estudando.test;import acesso.de.modificadores.estudando.domain.Funcionario;public class FuncionarioTest {    public static void main(String[] args) {        Funcionario funcionario = new Funcionario();        funcionario.imprimir();    }}
