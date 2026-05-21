@@ -22,7 +22,8 @@
 * [x] Dia 17 concluído
 * [x] Dia 18 concluído
 * [x] Dia 19 concluído
-* só falta mais 181 dias de estudo... pouco né?
+* [x] Dia 20 concluído
+* só falta mais 180 dias de estudo... pouco né?
 
 
 
@@ -1154,5 +1155,72 @@ public class Anime {
 
  
 ```
-	
 
+
+## 📅 Dia 20
+
+
+### Blocos de inicialização
+
+Blocos de inicialização no java são basicamente blocos de codigo que são iniciados/executados antes mesmo dos construtores, e servem justamente para instanciar algo a um objeto antes de tudo. um exemplo está no codigo abaixo: 
+
+
+	
+```java id="g7r1di"
+
+package inicializacao.de.blocos.domain;
+
+
+public class Anime {
+
+	private String name;
+	private int[] episodes = new int[100];
+
+	{
+	
+	System.out.println("Bloco de inicialização");	
+
+	}
+
+	public Anime(String name) {
+
+		this.name = name;
+
+	}
+
+	public Anime() {
+
+		for (int i = 0; i < this.episodes.length; i++) {
+			this.episodes[i] = i + 1;
+			System.out.println(" " + this.episodes[i]);
+		}
+	}
+	
+	public void getName () {
+
+		return this.name;
+	}
+}
+
+```
+
+```java id="g7r1di"
+
+package inicializacao.de.blocos.test;
+
+import inicializacao.de.blocos.domain.Anime;
+
+public class AnimeTest {
+	
+	public static void main(String[] args){
+		
+		Anime anime = new Anime("Naruto");
+		anime.getName();
+	}
+}
+
+```
+
+Repare que independente do meu codigo sempre irá iniciar o bloco de inicialização primeiro antes de tudo. Eu poderia passar a noite inteira criando objetos e mais objetos exemplo: "Anime anime2 = new Anime(); Anime anime3 = new Anime(); Anime anime4 = new Anime().
+
+Poderia criar quantos objetos eu quiser e também chamar quantos e quantos metodos nesses objetos eu quiser que sempre, REPITO, SEMPRE o bloco de inicialização será executado antes de todos e sempre!

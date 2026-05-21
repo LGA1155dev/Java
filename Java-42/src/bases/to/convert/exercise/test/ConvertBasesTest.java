@@ -1,0 +1,1 @@
+package bases.to.convert.exercise.test;import bases.to.convert.exercise.domain.ConvertBases;public class ConvertBasesTest {    public static void main(String[] args) {        ConvertBases convert = new ConvertBases();        convert.setSelect(1);    }}

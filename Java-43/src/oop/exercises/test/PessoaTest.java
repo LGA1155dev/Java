@@ -1,0 +1,1 @@
+package oop.exercises.test;import oop.exercises.domain.Pessoa;public class PessoaTest {    public static void main(String[] args) {        Pessoa pessoa = new Pessoa();        pessoa.setName("Gabriel");        pessoa.setAge(15);        pessoa.setProfission("Penetration tester");        pessoa.imprimir();    }}

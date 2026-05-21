@@ -1,0 +1,1 @@
+package bases.to.convert.exercise.domain;public class ConvertBases {    private int select;    public void setSelect(int select) {        System.out.println("Qual você deseja? \n (1) Decimal \n (2) binary \n (3) Hexadecimal \n (4) ");        this.select = select;    }}
