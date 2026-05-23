@@ -1,7 +1,5 @@
 package oop.arrays.e.associacao.domain;
 
-import com.sun.security.jgss.GSSUtil;
-
 public class Jogador {
     private String name;
 
@@ -13,11 +11,12 @@ public class Jogador {
         this.name = name;
     }
 
-    public String getName(){
-        return this.name;
-    }
-
     public void setName(String name){
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
 }

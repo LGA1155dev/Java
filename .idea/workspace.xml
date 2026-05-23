@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-46/Java-46.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-46/src/oop/arrays/e/associacao/domain/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-46/src/oop/arrays/e/associacao/test/JogadorTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/Java-48.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Ajogadores/oop/exercicios/domain/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Ajogadores/oop/exercicios/test/JogadorTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Bexercise/times/e/Jogadores/domain/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Bexercise/times/e/Jogadores/test/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/untled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/Java-48.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao/domain/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao/domain/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao/test/JogadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao02/domain/Escola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao02/domain/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-48/src/associacao02/test/Escola01Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-46/src/oop/arrays/e/associacao/domain/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-46/src/oop/arrays/e/associacao/domain/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-46/src/oop/arrays/e/associacao/test/JogadorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LGA1155dev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LGA1155dev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LGA1155dev/Java.git",
-    "accountId": "67f5a169-251e-42da-9308-a7fe9819632d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LGA1155dev/Java.git&quot;,
+    &quot;accountId&quot;: &quot;67f5a169-251e-42da-9308-a7fe9819632d&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Java-29/src/exercicios/oop/java/domain/Contador.java" root0="SKIP_INSPECTION" />
   </component>
@@ -65,6 +80,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AindaEmTiposPrimitivos.executor": "Run",
+    "Application.Ajogadores.oop.exercicios.test.JogadorTest01.executor": "Run",
+    "Application.AlunoTest.executor": "Run",
     "Application.AnimeTest.executor": "Run",
     "Application.AnimeTest01.executor": "Run",
     "Application.ArraysEForEach.executor": "Run",
@@ -89,6 +106,7 @@
     "Application.ContadorParesUmAteUmMilhao.executor": "Run",
     "Application.ContadorTest.executor": "Run",
     "Application.ConvertBasesTest.executor": "Run",
+    "Application.Escola01Test.executor": "Run",
     "Application.EstruturasCondicionais.executor": "Run",
     "Application.EstruturasDeRepeticao.executor": "Run",
     "Application.EstruturasRepeticao.executor": "Run",
@@ -112,6 +130,7 @@
     "Application.Java03TipsPrimitives.executor": "Run",
     "Application.Java04TipsPrimitives.executor": "Run",
     "Application.JogadorTest.executor": "Run",
+    "Application.JogadorTest01.executor": "Run",
     "Application.JuntadorDeNomesTest.executor": "Run",
     "Application.KauaTest.executor": "Run",
     "Application.Main.executor": "Run",
@@ -131,6 +150,7 @@
     "Application.TabuadaTest.executor": "Run",
     "Application.TesteComSwing.executor": "Run",
     "Application.TesteSyntax.executor": "Run",
+    "Application.TimeTest.executor": "Run",
     "Application.TiposPrimitivos.executor": "Run",
     "Application.UnoTest.executor": "Run",
     "Application.UsuarioTest.executor": "Run",
@@ -170,7 +190,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java-46/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-47/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -190,13 +210,13 @@
       <recent name="C:\Users\Gabriel\Documents\Java\Java-03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JogadorTest">
-    <configuration name="AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inicializacao.de.blocos.test.AnimeTest01" />
-      <module name="Java-43" />
+  <component name="RunManager" selected="Application.Escola01Test">
+    <configuration name="Ajogadores.oop.exercicios.test.JogadorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ajogadores.oop.exercicios.test.JogadorTest01" />
+      <module name="Java-48" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inicializacao.de.blocos.test.*" />
+          <option name="PATTERN" value="Ajogadores.oop.exercicios.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modificador.estatico.test.CarroTest" />
-      <module name="Java-45" />
+    <configuration name="AlunoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ccomida.avaliacao.exercise.test.AlunoTest" />
+      <module name="untled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modificador.estatico.test.*" />
+          <option name="PATTERN" value="Ccomida.avaliacao.exercise.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertBasesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bases.to.convert.exercise.test.ConvertBasesTest" />
-      <module name="Java-42" />
+    <configuration name="Escola01Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="associacao02.test.Escola01Test" />
+      <module name="Java-48" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bases.to.convert.exercise.test.*" />
+          <option name="PATTERN" value="associacao02.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +251,11 @@
       </method>
     </configuration>
     <configuration name="JogadorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.arrays.e.associacao.test.JogadorTest" />
-      <module name="Java-46" />
+      <option name="MAIN_CLASS_NAME" value="associacao.test.JogadorTest" />
+      <module name="Java-48" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.arrays.e.associacao.test.*" />
+          <option name="PATTERN" value="associacao.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.exercises.test.PessoaTest" />
-      <module name="Java-43" />
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bexercise.times.e.Jogadores.test.TimeTest" />
+      <module name="Java-48" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.exercises.test.*" />
+          <option name="PATTERN" value="Bexercise.times.e.Jogadores.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,19 +277,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Escola01Test" />
+      <item itemvalue="Application.AlunoTest" />
       <item itemvalue="Application.JogadorTest" />
-      <item itemvalue="Application.CarroTest" />
-      <item itemvalue="Application.AnimeTest01" />
-      <item itemvalue="Application.PessoaTest" />
-      <item itemvalue="Application.ConvertBasesTest" />
+      <item itemvalue="Application.Ajogadores.oop.exercicios.test.JogadorTest01" />
+      <item itemvalue="Application.TimeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Escola01Test" />
+        <item itemvalue="Application.AlunoTest" />
         <item itemvalue="Application.JogadorTest" />
-        <item itemvalue="Application.CarroTest" />
-        <item itemvalue="Application.PessoaTest" />
-        <item itemvalue="Application.AnimeTest01" />
-        <item itemvalue="Application.ConvertBasesTest" />
+        <item itemvalue="Application.TimeTest" />
+        <item itemvalue="Application.Ajogadores.oop.exercicios.test.JogadorTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +312,11 @@
       <workItem from="1778435441166" duration="5788000" />
       <workItem from="1778961911375" duration="24000" />
       <workItem from="1779379857505" duration="3126000" />
+      <workItem from="1779394602572" duration="5314000" />
+      <workItem from="1779541601489" duration="92000" />
+      <workItem from="1779544846294" duration="4611000" />
+      <workItem from="1779560987214" duration="2797000" />
+      <workItem from="1779570203970" duration="1351000" />
     </task>
     <servers />
   </component>
@@ -515,6 +540,11 @@
           <url>file://$PROJECT_DIR$/Java-46/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-48/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
