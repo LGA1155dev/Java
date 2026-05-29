@@ -24,7 +24,8 @@
 * [x] Dia 19 concluído
 * [x] Dia 20 concluído
 * [x] Dia 21 concluído
-* só falta mais 179 dias de estudo... pouco né?
+* [x] Dia 22 concluído
+* só falta mais 178 dias de estudo... pouco né?
 
 
 
@@ -1324,4 +1325,96 @@ public clas CarroTest {
 
 
 ```
+
+## 📅 Dia 22
+
+Herança no Java - OOP
+
+Supomos que em sua empresa você foi contratado para retratar o mundo real no universo computacional e seu chefe olha pra você e fala: "Então... preciso que você faça um objeto chamado pessoa com os atributos nome, cpf, e endereço.".Logo após essa fala você faz oque ele te pede:
+
+```java id="g7r1di"
+
+package oop.heranca.estudando.domain;
+
+public class Pessoa {
+
+   private String name;
+   private String cpf;
+   private String endereco;
+   
+   public Pessoa(String name, String cpf, String endereco){
+   
+   	this.name = name;
+   	this.cpf = cpf;
+   	this.endereco = endereco;
+   	
+   }
+   
+   public void setName(String name){
+   	this.name = name;
+   }
+   
+   public String getName(){
+   	return this.name;
+   }
+   
+   public void setCpf(String cpf){
+   	this.cpf = cpf;
+   }
+   
+   public String getCpf(){
+   	return this.cpf;
+   	
+   }
+   
+   public void setEndereco(String endereco){
+   	this.endereco = endereco;
+   }
+   
+   public String getEndereco(){
+   	return this.endereco;
+   }
+   
+   public void imprimir(){
+   
+   	System.out.println(this.name);
+   	System.out.println(this.cpf);
+   	System.out.println(this.endereco);
+   	
+   }
+}
+
+```
+
+Feito essa classe pessoa que depois você irá fazer um objeto a partir desta classe, seu chefe faz mais um pedido: "Se puder também, faça um funcionario com os atributos de nome, cpf, endereco e também salario.". Após essa fala você vai lá e faz essa classe porém percebe que a classe funcionario tem os mesmos atributos que a classe pessoa tem porém extendendo em apenas um atributo que é o salario. E essa é a palavra chave "extend" quando eu tenho que um objeto tem o mesmo que outro porém quero que tenha isso e mais um pouco. Ou seja quando quero extender um objeto/classe. Exemplo pratico:
+
+
+```java id="g7r1di"
+
+
+package oop.heranca.estudando.domain;
+import oop.heranca.estudando.domain.Pessoa;
+
+public class Funcionario extend Pessoa {
+	
+    private double salario;
+    
+    public Funcionario(double salario){
+    	this.salario = salario;
+    }
+    
+    public void setSalario(double salario){
+    	this.salario = salario;
+    }
+    
+    public double getSalario(){
+    	return this.salario;
+    }
+    
+    }
+    
+```
+
+Dessa maneira você consegue economizar boas linhas de codigo e não precisa entupir seu codigo de getters e setters já que a classe Funcionario já está herdando todos os atributos de Pessoa. Porém o risco de usar isso e que é bem perigoso se não usado corretamente, é o fato de que qualquer alteração que eu faça na classe pessoa, irá interferir na classe funcionario. Por exemplo se eu colocar um atributo que será apenas para a pessoa em particular, esse atributo seria também repassado para a classe Funcionario simplesmente porque ele está herdando tudo que vir da classe Pessoa.    
+   	
 	

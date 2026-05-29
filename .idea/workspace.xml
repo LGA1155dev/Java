@@ -5,29 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Ccomida/avaliacao/exercise/domain/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Ccomida/avaliacao/exercise/domain/Avaliacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Ccomida/avaliacao/exercise/domain/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Ccomida/avaliacao/exercise/test/AvaliacaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/domain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/test/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-49/Java-49.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-49/src/bidirecional/assossiacao/domain/Jogador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-49/src/bidirecional/assossiacao/domain/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-49/src/bidirecional/assossiacao/test/JogadorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-49/src/bidirecional/assossiacao/test/JogadorTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-50/Java-50.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-50/src/LeituraDeDadosScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-51/Java-51.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-51/src/ExerciseScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-52/src/seminarios/associacao/exercise/domain/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-52/src/seminarios/associacao/exercise/domain/Local.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-52/src/seminarios/associacao/exercise/domain/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-52/src/seminarios/associacao/exercise/domain/Seminario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-52/src/seminarios/associacao/exercise/test/SeminarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,11 +257,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Escola01Test" />
+      <item itemvalue="Application.SeminarioTest" />
       <item itemvalue="Application.ExerciseScanner" />
       <item itemvalue="Application.JogadorTest02" />
       <item itemvalue="Application.LeituraDeDadosScanner" />
-      <item itemvalue="Application.SeminarioTest" />
+      <item itemvalue="Application.Escola01Test" />
     </list>
     <recent_temporary>
       <list>
@@ -325,6 +302,7 @@
       <workItem from="1779828863792" duration="3759000" />
       <workItem from="1779845009356" duration="73000" />
       <workItem from="1779845105396" duration="12000" />
+      <workItem from="1780090292137" duration="806000" />
     </task>
     <servers />
   </component>
