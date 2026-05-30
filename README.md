@@ -1460,3 +1460,133 @@ public class Funcionario extend Pessoa {
 
 ```
 
+### Protected
+
+O modificador `protected` permite que um atributo ou método seja acessado pela própria classe, por classes do mesmo pacote e também por classes filhas (subclasses), mesmo que estejam em pacotes diferentes.
+
+Ele é mais restritivo que `public` e menos restritivo que `private`, sendo muito utilizado em cenários de herança.
+
+um exemplo é a seguir: 
+
+
+```java id="g7r1di"
+
+package oop.protectede.estudando.domain;
+
+public class Funcionario extends Pessoa {
+    private double salario;
+    private double salarioRecebido;
+
+    public Funcionario(double salario, double salarioRecebido) {
+        this.salario = salario;
+        this.salarioRecebido = salarioRecebido;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void imprimir(){
+        super.imprimir();
+        System.out.println(this.salario);
+    }
+
+    public void relatorioPagamento () {
+        System.out.println("Eu: " + this.name + " recebi " + this.salario + "R$");
+    }
+
+
+    public double getSalarioRecebido() {
+        return salarioRecebido;
+    }
+
+    public void setSalarioRecebido(double salarioRecebido) {
+        this.salarioRecebido = salarioRecebido;
+    }
+}
+
+```
+
+```java id="g7r1di"
+
+package oop.protectede.estudando.domain;
+
+public class Pessoa {
+    protected String name;
+    protected String cpf;
+    protected int age;
+
+
+    public Pessoa(String name, String cpf, int age) {
+        this.name = name;
+        this.cpf = cpf;
+        this.age = age;
+    }
+
+    public Pessoa(){
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void imprimir(){
+        System.out.println(this.name);
+        System.out.println(this.age);
+        System.out.println(this.cpf);
+    }
+}
+
+
+```
+
+```java id="g7r1di"
+
+package oop.protectede.estudando.test;
+
+import oop.protectede.estudando.domain.Funcionario;
+import oop.protectede.estudando.domain.Pessoa;
+
+public class FuncionarioTest {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa("Gabriel", "123-456-789-10", 15);
+        Funcionario funcionario = new Funcionario(1500, 2000);
+        funcionario.setName("Gabriel");
+        funcionario.relatorioPagamento();
+
+    }
+}
+
+```
+
+
+
+
+
+
+

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-53/Java-53.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/test/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +109,7 @@
     "Application.ExerciciosJavaDois.executor": "Run",
     "Application.ExerciciosNoJava04.executor": "Run",
     "Application.ExerciseScanner.executor": "Run",
-    "Application.FuncionarioTest.executor": "Run",
+    "Application.FuncionarioTest.executor": "Debug",
     "Application.FuncionarioTest01.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.Java02.executor": "Run",
@@ -179,7 +183,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-52/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-53/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -204,7 +208,7 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PublicacaoTest">
+  <component name="RunManager" selected="Application.FuncionarioTest">
     <configuration name="ExerciseScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseScanner" />
       <module name="Java-51" />
@@ -212,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JogadorTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bidirecional.assossiacao.test.JogadorTest02" />
-      <module name="Java-49" />
+    <configuration name="FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.protectede.estudando.test.FuncionarioTest" />
+      <module name="Java-53" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bidirecional.assossiacao.test.*" />
+          <option name="PATTERN" value="oop.protectede.estudando.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,19 +263,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FuncionarioTest" />
       <item itemvalue="Application.PublicacaoTest" />
       <item itemvalue="Application.SeminarioTest" />
       <item itemvalue="Application.ExerciseScanner" />
-      <item itemvalue="Application.JogadorTest02" />
       <item itemvalue="Application.LeituraDeDadosScanner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncionarioTest" />
         <item itemvalue="Application.PublicacaoTest" />
         <item itemvalue="Application.SeminarioTest" />
         <item itemvalue="Application.ExerciseScanner" />
         <item itemvalue="Application.LeituraDeDadosScanner" />
-        <item itemvalue="Application.JogadorTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +311,7 @@
       <workItem from="1780090292137" duration="806000" />
       <workItem from="1780154899616" duration="3415000" />
       <workItem from="1780169095790" duration="79000" />
+      <workItem from="1780177768445" duration="2354000" />
     </task>
     <servers />
   </component>
@@ -556,6 +561,16 @@
           <line>11</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-53/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
           <option name="timeStamp" value="19" />
@@ -565,6 +580,15 @@
           <line>3</line>
           <properties field="nome" class="java.oop.aprendendendo.dominio.Estudante" />
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java</url>
+          <line>6</line>
+          <properties class="oop.protectede.estudando.domain.Funcionario" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
