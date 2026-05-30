@@ -4,6 +4,6 @@ import Dsistema.de.pedidos.domain.Client;
 
 public class OrderTest {
     public static void main(String[] args) {
-        Client client = new Client();
+        Client client = new Client("dd");
     }
 }

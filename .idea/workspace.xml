@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Publicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/test/PublicacaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/test/OrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,133 +64,134 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AindaEmTiposPrimitivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ajogadores.oop.exercicios.test.JogadorTest01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AlunoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnimeTest01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysEForEach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysMultidimensionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysMultidimensionais02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysMultidimensionaisForEach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysNoJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysNoJava02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysNoJava03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AvaliacaoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BMW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BreakEContinueNoJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BreakNoJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CaculadoraTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculadoraTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculadoraTest02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorTest02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorTest03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorTest04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarroTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContaBancariaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContadorParesUmAteUmMilhao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContadorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertBasesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Escola01Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstruturasDeRepeticao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstruturasRepeticao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstudanteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstudanteTest02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioArray02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioImposto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioSwitchCaseDiasUteis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioVerificarJogador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciciosJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciciosJavaDois.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciciosNoJava04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciseScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FuncionarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FuncionarioTest01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java02OlaDevDojo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java03TiposPrimitives.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java03TiposPrimitivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java03TipsPrimitives.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java04TipsPrimitives.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JogadorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JogadorTest01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JogadorTest02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JuntadorDeNomesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KauaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeituraDeDadosScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaiorNumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiniLoja.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadiresDeAtribuicao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresLogicos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresRelacionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresTernarios.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParOuImparTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PessoaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeminarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringsNoJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudantTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCaseJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tabuada.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TabuadaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteComSwing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteSyntax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TiposPrimitivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsuarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrays.praticando.aprendendo.ArraysNoJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inicializacao.de.blocos.test.AnimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maratona.dev.dojo.Java02OlaDevDojo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maratona.dev.dojo.Java03TipsPrimitives.executor&quot;: &quot;Run&quot;,
-    &quot;Application.objeto.orientacao.exercise.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.oop.construtores.estudando.test.AnimeTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.referencia.tipo.parametros.estudando.test.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.referencia.tipos.parametros.test.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sozinho.objeto.criando.test.EstudanteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sozinho.objeto.criando.test.EstudanteTest02.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JavaScript Debug.funcionarioDocumentation.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gabriel/Documentos/GitHub/React&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/gabriel/Documentos/GitHub/Java/Java-52/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AindaEmTiposPrimitivos.executor": "Run",
+    "Application.Ajogadores.oop.exercicios.test.JogadorTest01.executor": "Run",
+    "Application.AlunoTest.executor": "Run",
+    "Application.AnimeTest.executor": "Run",
+    "Application.AnimeTest01.executor": "Run",
+    "Application.ArraysEForEach.executor": "Run",
+    "Application.ArraysMultidimensionais.executor": "Run",
+    "Application.ArraysMultidimensionais02.executor": "Run",
+    "Application.ArraysMultidimensionaisForEach.executor": "Run",
+    "Application.ArraysNoJava.executor": "Run",
+    "Application.ArraysNoJava02.executor": "Run",
+    "Application.ArraysNoJava03.executor": "Run",
+    "Application.AvaliacaoTest.executor": "Run",
+    "Application.BMW.executor": "Run",
+    "Application.BreakEContinueNoJava.executor": "Run",
+    "Application.BreakNoJava.executor": "Run",
+    "Application.CaculadoraTest.executor": "Run",
+    "Application.CalculadoraTest.executor": "Run",
+    "Application.CalculadoraTest02.executor": "Run",
+    "Application.CalculatorTest.executor": "Run",
+    "Application.CalculatorTest02.executor": "Run",
+    "Application.CalculatorTest03.executor": "Run",
+    "Application.CalculatorTest04.executor": "Run",
+    "Application.CarroTest.executor": "Run",
+    "Application.ContaBancariaTest.executor": "Run",
+    "Application.ContadorParesUmAteUmMilhao.executor": "Run",
+    "Application.ContadorTest.executor": "Run",
+    "Application.ConvertBasesTest.executor": "Run",
+    "Application.Escola01Test.executor": "Run",
+    "Application.EstruturasCondicionais.executor": "Run",
+    "Application.EstruturasDeRepeticao.executor": "Run",
+    "Application.EstruturasRepeticao.executor": "Run",
+    "Application.EstudanteTest.executor": "Run",
+    "Application.EstudanteTest02.executor": "Run",
+    "Application.ExercicioArray.executor": "Run",
+    "Application.ExercicioArray02.executor": "Run",
+    "Application.ExercicioImposto.executor": "Run",
+    "Application.ExercicioSwitchCaseDiasUteis.executor": "Run",
+    "Application.ExercicioVerificarJogador.executor": "Run",
+    "Application.ExerciciosJava.executor": "Run",
+    "Application.ExerciciosJavaDois.executor": "Run",
+    "Application.ExerciciosNoJava04.executor": "Run",
+    "Application.ExerciseScanner.executor": "Run",
+    "Application.FuncionarioTest.executor": "Run",
+    "Application.FuncionarioTest01.executor": "Run",
+    "Application.HelloJava.executor": "Run",
+    "Application.Java02.executor": "Run",
+    "Application.Java02OlaDevDojo.executor": "Run",
+    "Application.Java03TiposPrimitives.executor": "Run",
+    "Application.Java03TiposPrimitivos.executor": "Run",
+    "Application.Java03TipsPrimitives.executor": "Run",
+    "Application.Java04TipsPrimitives.executor": "Run",
+    "Application.JogadorTest.executor": "Run",
+    "Application.JogadorTest01.executor": "Run",
+    "Application.JogadorTest02.executor": "Run",
+    "Application.JuntadorDeNomesTest.executor": "Run",
+    "Application.KauaTest.executor": "Run",
+    "Application.LeituraDeDadosScanner.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaiorNumTest.executor": "Run",
+    "Application.MiniLoja.executor": "Run",
+    "Application.OperadiresDeAtribuicao.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
+    "Application.OperadoresRelacionais.executor": "Run",
+    "Application.OperadoresTernarios.executor": "Run",
+    "Application.ParOuImparTest.executor": "Run",
+    "Application.PessoaTest.executor": "Run",
+    "Application.PublicacaoTest.executor": "Run",
+    "Application.SeminarioTest.executor": "Run",
+    "Application.StringsNoJava.executor": "Run",
+    "Application.StudantTest.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.SwitchCaseJava.executor": "Run",
+    "Application.Tabuada.executor": "Run",
+    "Application.TabuadaTest.executor": "Run",
+    "Application.TesteComSwing.executor": "Run",
+    "Application.TesteSyntax.executor": "Run",
+    "Application.TimeTest.executor": "Run",
+    "Application.TiposPrimitivos.executor": "Run",
+    "Application.UnoTest.executor": "Run",
+    "Application.UsuarioTest.executor": "Run",
+    "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
+    "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
+    "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
+    "Application.maratona.dev.dojo.Java03TipsPrimitives.executor": "Run",
+    "Application.objeto.orientacao.exercise.test.FuncionarioTest.executor": "Run",
+    "Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor": "Run",
+    "Application.oop.construtores.estudando.test.AnimeTest.executor": "Debug",
+    "Application.referencia.tipo.parametros.estudando.test.StudentTest.executor": "Run",
+    "Application.referencia.tipos.parametros.test.StudentTest.executor": "Run",
+    "Application.sozinho.objeto.criando.test.EstudanteTest.executor": "Run",
+    "Application.sozinho.objeto.criando.test.EstudanteTest02.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JavaScript Debug.funcionarioDocumentation.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/gabriel/Documentos/GitHub/React",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-52/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\Documents\Java" />
@@ -202,20 +208,7 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeminarioTest">
-    <configuration name="Escola01Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associacao02.test.Escola01Test" />
-      <module name="Java-48" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="associacao02.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PublicacaoTest">
     <configuration name="ExerciseScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseScanner" />
       <module name="Java-51" />
@@ -243,6 +236,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PublicacaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Elivro.e.autor.test.PublicacaoTest" />
+      <module name="untled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Elivro.e.autor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeminarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminarios.associacao.exercise.test.SeminarioTest" />
       <module name="Java-52" />
@@ -257,19 +263,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PublicacaoTest" />
       <item itemvalue="Application.SeminarioTest" />
       <item itemvalue="Application.ExerciseScanner" />
       <item itemvalue="Application.JogadorTest02" />
       <item itemvalue="Application.LeituraDeDadosScanner" />
-      <item itemvalue="Application.Escola01Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PublicacaoTest" />
         <item itemvalue="Application.SeminarioTest" />
         <item itemvalue="Application.ExerciseScanner" />
         <item itemvalue="Application.LeituraDeDadosScanner" />
         <item itemvalue="Application.JogadorTest02" />
-        <item itemvalue="Application.Escola01Test" />
       </list>
     </recent_temporary>
   </component>
@@ -303,6 +309,7 @@
       <workItem from="1779845009356" duration="73000" />
       <workItem from="1779845105396" duration="12000" />
       <workItem from="1780090292137" duration="806000" />
+      <workItem from="1780154899616" duration="2597000" />
     </task>
     <servers />
   </component>
