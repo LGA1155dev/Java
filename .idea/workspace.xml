@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/domain/Publicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-47/src/Elivro/e/autor/test/PublicacaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-47/src/Dsistema/de/pedidos/test/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Documentos/GitHub/React",
+    "last_opened_file_path": "/home/gabriel/Downloads/aplicação",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -309,7 +305,8 @@
       <workItem from="1779845009356" duration="73000" />
       <workItem from="1779845105396" duration="12000" />
       <workItem from="1780090292137" duration="806000" />
-      <workItem from="1780154899616" duration="2597000" />
+      <workItem from="1780154899616" duration="3415000" />
+      <workItem from="1780169095790" duration="79000" />
     </task>
     <servers />
   </component>

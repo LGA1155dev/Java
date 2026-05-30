@@ -25,7 +25,8 @@
 * [x] Dia 20 concluído
 * [x] Dia 21 concluído
 * [x] Dia 22 concluído
-* só falta mais 178 dias de estudo... pouco né?
+* [x] Dia 23 concluído
+* só falta mais 177 dias de estudo... pouco né?
 
 
 
@@ -1417,4 +1418,45 @@ public class Funcionario extend Pessoa {
 
 Dessa maneira você consegue economizar boas linhas de codigo e não precisa entupir seu codigo de getters e setters já que a classe Funcionario já está herdando todos os atributos de Pessoa. Porém o risco de usar isso e que é bem perigoso se não usado corretamente, é o fato de que qualquer alteração que eu faça na classe pessoa, irá interferir na classe funcionario. Por exemplo se eu colocar um atributo que será apenas para a pessoa em particular, esse atributo seria também repassado para a classe Funcionario simplesmente porque ele está herdando tudo que vir da classe Pessoa.    
    	
-	
+   	
+   	
+## 📅 Dia 23
+
+### Super
+
+O super é uma referência à classe pai. Ele permite acessar atributos, métodos e construtores da superclasse.
+
+Um uso comum é quando sobrescrevemos um método na classe filha, mas ainda queremos executar a implementação original da classe pai.
+
+No exemplo abaixo, Funcionario sobrescreve o método imprimir(). Ao chamar super.imprimir(), primeiro executamos o método imprimir() da classe Pessoa e depois adicionamos o comportamento específico de Funcionario, imprimindo o salário.
+
+```java id="g7r1di"
+
+package oop.heranca.estudando.domain;
+import oop.heranca.estudando.domain.Pessoa;
+
+public class Funcionario extend Pessoa {
+    private double salario;
+    
+    public Funcionario(double salario){
+    	this.salario = salario;
+    }
+    
+    public void setSalario(double salario){
+    	this.salario = salario;
+    }
+    
+    public double getSalario(){
+    	return this.salario;
+    }
+    
+    public void imprimir(){
+    
+    super.imprimir();
+    System.out.println(this.salario);
+    
+    }
+}
+
+```
+
