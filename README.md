@@ -1,4 +1,4 @@
-# 📚 Aprendendo Java e documentando as ferramentas
+# 📚 Aprendendo Java e documentando a experiência
 
 
 ## 📈 Progresso
@@ -26,8 +26,9 @@
 * [x] Dia 21 concluído
 * [x] Dia 22 concluído
 * [x] Dia 23 concluído
-* só falta mais 177 dias de estudo... pouco né?
-
+* [x] Dia 24 concluído
+* [x] Dia 25 concluído
+* só falta mais 175 dias de estudo... pouco né?
 
 
 ---
@@ -1586,7 +1587,50 @@ public class FuncionarioTest {
 
 
 
+## 📅 Dia 24
+
+### Como o construtor se comporta quando temos herança em Java?
+
+Novamente voltando ao exemplo anterior. Se por um acaso o meu `Funcionario` é uma `Pessoa`, ou seja, ele estende os atributos de `Pessoa`, logo eu preciso seguir todas as diretrizes de `Pessoa` no meu `Funcionario`.
+
+Por exemplo: se a minha classe `Pessoa` é inicializada com um construtor que já define nome, CPF e outras informações importantes, logo a minha classe `Funcionario` também precisa respeitar esse processo de inicialização.
+
+Imagine a seguinte ocasião:
+
+Temos dois gêmeos siameses. Eles nasceram grudados. Logo, ambos compartilham provavelmente o mesmo coração, o mesmo corpo e talvez até o mesmo órgão sexual. Faria sentido eu simplesmente ter um deles com uma mão, mas o outro não ter uma mão? (Sei que, por mais bizarro que pareça, isso pode acontecer). Porém, dentro da nossa comparação, não teria sentido lógico um ter braço e o outro não ter braço.
+
+Logo, comparando com as classes em Java, não faria sentido existir uma classe que estende outra classe, mas que não respeita as diretrizes da classe mãe. Isso não teria coerência.
+
+Entretanto, é importante destacar um detalhe técnico: essa analogia serve apenas para facilitar o entendimento do conceito. Na prática, a classe filha não precisa necessariamente possuir os mesmos construtores da classe mãe. Inclusive, construtores nem são herdados em Java.
+
+O que realmente acontece é que a classe filha precisa garantir que o construtor da classe mãe seja executado durante sua inicialização. Normalmente isso é feito através da chamada `super(...)`. Dessa forma, a parte herdada do objeto é criada corretamente antes que a própria classe filha finalize sua construção.
+
+Portanto, quando eu digo que o `Funcionario` precisa "seguir as diretrizes" da `Pessoa`, não significa que ambos terão exatamente os mesmos construtores, mas sim que o processo de inicialização definido pela classe mãe precisa ser respeitado.
 
 
 
+## 📅 Dia 25
 
+## Sequência de inicialização - java OOP
+
+a sequencia de inicialização da JVM quando estamos trabalhando com herança é a seguinte:
+
+0 - O bloco de inicialização estático da super classe é executado quando a JVM carregar a classe pai.
+
+1 - O bloco  de inicialização estático da sub classe é executado quando a JVM carregar a classe filha
+
+2 - Alocado um espaço em memória para o objeto da classe pai
+
+3 - Cada atributo de classe pai é criado e inicializado com valores default ou quer for passado da classe pai
+
+4 - Bloco de inicialização da superclasse é executado na ordem que aparecem
+
+5 - Construtor é executado da superclass
+
+6 - Alocado um espaço em memória pro objeto da subclasse
+
+7 - Cada atributo da subclasse é criado e inicializado com valores default ou qualquer que seja passados
+
+8 - Bloco de inicialização da subclasse é executado na ordem em que aparece
+
+9 - O construtor é executado da subclasse

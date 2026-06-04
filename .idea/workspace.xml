@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-53/Java-53.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/test/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/Java-54.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/src/oop/inicializacao/sequencia/domain/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/src/oop/inicializacao/sequencia/domain/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/src/oop/inicializacao/sequencia/domain/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/src/oop/inicializacao/sequencia/test/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-54/src/oop/inicializacao/sequencia/test/FuncionarioTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
     "Application.ExerciciosJavaDois.executor": "Run",
     "Application.ExerciciosNoJava04.executor": "Run",
     "Application.ExerciseScanner.executor": "Run",
-    "Application.FuncionarioTest.executor": "Debug",
+    "Application.FuncionarioTest.executor": "Run",
     "Application.FuncionarioTest01.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.Java02.executor": "Run",
@@ -154,6 +157,7 @@
     "Application.objeto.orientacao.exercise.test.FuncionarioTest.executor": "Run",
     "Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor": "Run",
     "Application.oop.construtores.estudando.test.AnimeTest.executor": "Debug",
+    "Application.oop.inicializacao.sequencia.test.FuncionarioTest.executor": "Run",
     "Application.referencia.tipo.parametros.estudando.test.StudentTest.executor": "Run",
     "Application.referencia.tipos.parametros.test.StudentTest.executor": "Run",
     "Application.sozinho.objeto.criando.test.EstudanteTest.executor": "Run",
@@ -177,13 +181,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Downloads/aplicação",
+    "last_opened_file_path": "/home/gabriel/Documentos/GitHub/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-53/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-54/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -208,7 +212,7 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncionarioTest">
+  <component name="RunManager" selected="Application.oop.inicializacao.sequencia.test.FuncionarioTest">
     <configuration name="ExerciseScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseScanner" />
       <module name="Java-51" />
@@ -225,13 +229,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeituraDeDadosScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeituraDeDadosScanner" />
-      <module name="Java-50" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,20 +259,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oop.inicializacao.sequencia.test.FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.inicializacao.sequencia.test.FuncionarioTest" />
+      <module name="Java-54" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.inicializacao.sequencia.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.oop.inicializacao.sequencia.test.FuncionarioTest" />
       <item itemvalue="Application.FuncionarioTest" />
       <item itemvalue="Application.PublicacaoTest" />
       <item itemvalue="Application.SeminarioTest" />
       <item itemvalue="Application.ExerciseScanner" />
-      <item itemvalue="Application.LeituraDeDadosScanner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oop.inicializacao.sequencia.test.FuncionarioTest" />
         <item itemvalue="Application.FuncionarioTest" />
         <item itemvalue="Application.PublicacaoTest" />
         <item itemvalue="Application.SeminarioTest" />
         <item itemvalue="Application.ExerciseScanner" />
-        <item itemvalue="Application.LeituraDeDadosScanner" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +322,10 @@
       <workItem from="1780154899616" duration="3415000" />
       <workItem from="1780169095790" duration="79000" />
       <workItem from="1780177768445" duration="2354000" />
+      <workItem from="1780233372889" duration="843000" />
+      <workItem from="1780244033297" duration="15000" />
+      <workItem from="1780482710110" duration="1411000" />
+      <workItem from="1780576778620" duration="4571000" />
     </task>
     <servers />
   </component>
@@ -570,6 +584,11 @@
           <url>file://$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java</url>
           <line>2</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-54/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
