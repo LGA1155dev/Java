@@ -28,7 +28,9 @@
 * [x] Dia 23 concluído
 * [x] Dia 24 concluído
 * [x] Dia 25 concluído
-* só falta mais 175 dias de estudo... pouco né?
+* [x] Dia 26 concluído
+* [x] Dia 27 concluído
+* só falta mais 173 dias de estudo... pouco né?
 
 
 ---
@@ -1634,3 +1636,85 @@ a sequencia de inicialização da JVM quando estamos trabalhando com herança é
 8 - Bloco de inicialização da subclasse é executado na ordem em que aparece
 
 9 - O construtor é executado da subclasse
+
+
+## 📅 Dia 26
+
+### Hoje não tem materia, só pratica!
+
+## Resolvendo exercicios em java - SOCORRO!!!!
+
+## 📅 Dia 27
+
+### Sobreescrita do método toString - Java OOP
+
+Quando criamos uma classe no java por exemplo com o nome Anime" automaticamente a classe herda ou extende a classe Object que é uma classe que permite usar algumas funções por padrão. 
+Se por exemplo você criar um objeto chamado anime como abaixo:
+
+```java id="g7r1di"
+
+package toString.metodo.sobreescrita.domain;
+import lombok.Setter;
+import lombok.Getter;
+
+public class Anime {
+   @Getter;
+   @Setter;
+   private String name;
+   
+}
+
+```
+
+```java id="g7r1di"
+
+package toString.metodo.sobreescrita.test;
+
+public class AnimeTest {
+    public static void main(String... args){
+    	Anime anime = new Anime();
+    	System.out.println(anime);
+    }
+}
+
+```
+
+Se você sabe o minimo sobre poo, sabe que acima quando eu mando imprimir o objeto anime, não vai me imprimir tudo que está em anime mas sim uma localização na memoria de onde esse objeto está, no caso vai aparecer algo  parecido com isso:
+
+toString.metodo.sobreescrita.domain.Anime@2c7b84de
+
+E isso acontece pelo metodo toString que está na classe Object que restorna o seguinte:
+
+
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+        
+ele pega a classe no caso Anime, pega o nome da classe que é Anime concatena com o "@" ficando Anime@ depois concatena com o hashcode 
+
+
+
+E assim como todo método, tem como fazer sua sobreescrita, ou seja modificar o metodo. Por exemplo:
+
+```java id="g7r1di"
+
+package toString.metodo.sobreecrita.domain;
+import lombok.Setter;
+import lombok.Getter;
+
+public class Anime {
+   @Getter;
+   @Setter;
+   private String name;
+   
+   @Override;
+   public String toString() {
+   	return "Anime: " + name;
+   }
+}
+
+```
+
+Assim quando fizermos System.out.println(anime) exibirá "Anime: Naruto" por exemplo.
+Lembrando que a anotação @Override serve para sobreescrever metodos, ou substituir, no caso é uma anotação pra avisar "Olha estou substituindo esse metodo por isso: ".
+
+
+   
