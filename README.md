@@ -1637,6 +1637,8 @@ a sequencia de inicialização da JVM quando estamos trabalhando com herança é
 
 9 - O construtor é executado da subclasse
 
+<img width="1122" height="1402" alt="ChatGPT Image Jun 4, 2026, 12_38_13 PM" src="https://github.com/user-attachments/assets/6f3ca6d3-6871-4685-bfd2-b1318c326456" />
+
 
 ## 📅 Dia 26
 
@@ -1715,8 +1717,3 @@ public class Anime {
 
 Assim quando fizermos System.out.println(anime) exibirá "Anime: Naruto" por exemplo.
 Lembrando que a anotação @Override serve para sobreescrever metodos, ou substituir, no caso é uma anotação pra avisar "Olha estou substituindo esse metodo por isso: ".
-
-
-   
-=======
-<img width="1122" height="1402" alt="ChatGPT Image Jun 4, 2026, 12_38_13 PM" src="https://github.com/user-attachments/assets/6f3ca6d3-6871-4685-bfd2-b1318c326456" />
