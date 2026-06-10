@@ -1637,8 +1637,6 @@ a sequencia de inicialização da JVM quando estamos trabalhando com herança é
 
 9 - O construtor é executado da subclasse
 
-<img width="1122" height="1402" alt="ChatGPT Image Jun 4, 2026, 12_38_13 PM" src="https://github.com/user-attachments/assets/6f3ca6d3-6871-4685-bfd2-b1318c326456" />
-
 
 ## 📅 Dia 26
 
@@ -1717,3 +1715,36 @@ public class Anime {
 
 Assim quando fizermos System.out.println(anime) exibirá "Anime: Naruto" por exemplo.
 Lembrando que a anotação @Override serve para sobreescrever metodos, ou substituir, no caso é uma anotação pra avisar "Olha estou substituindo esse metodo por isso: ".
+
+
+# Modificador Final
+
+O modificador final no java, funciona assim como o const no JavaScript, ou seja são tipos de variaveis que nunca podem ser mudadas, e que assim que declaradas devem iniciar com um valor. No java, geralmente usa-se o final junto com o static (lembrando que o static é basicamente um modifcador que permite com que tal atributo seja da classe e não do objeto, ou seja se eu faço o atributo private static double velociade = 250;, todos os objetos criados a partir dessa classe terão a velocidade de 250) enfim, geralmente no java você vai ver muito codigo usando o static junto com o final. E também verá que o nome das variaveis são upperCase ou seja em letras maiusculas e que as palavras das variaveis são separadas por "_" underline, isso é uma boa pratica pois só de bater o olho já é possivel observar que se trata de uma variavel final, constanste que nunca muda.
+
+um exemplo é:
+
+
+```java id="g7r1di"
+
+package oop.fin4l.modificador.domain;
+import lombok.Getter;
+import lombok.Setter;
+
+public class Carro {
+    @Getter
+    @Setter
+    private String name;
+
+    public static final double VELOCIDADE_LIMITE;
+
+    static{
+        VELOCIDADE_LIMITE  = 250;
+    }
+    
+```
+
+Ai como a variavel é final, eu posso iniciar seu valor com o bloco de inicalização statico pois ele sempre será executado no codigo, não obtendo erro de compilação.
+
+
+
+   

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-57/Java-57.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/domain/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/domain/Anime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +175,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -181,7 +186,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-56/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-57/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -206,13 +211,26 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimeTest">
+  <component name="RunManager" selected="Application.CarroTest">
     <configuration name="AnimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="toString.metodo.sobreescrita.test.AnimeTest" />
       <module name="Java-56" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="toString.metodo.sobreescrita.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.fin4l.modificador.test.CarroTest" />
+      <module name="Java-57" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.fin4l.modificador.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,33 +277,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop.inicializacao.sequencia.test.FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.inicializacao.sequencia.test.FuncionarioTest" />
-      <module name="Java-54" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.inicializacao.sequencia.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.CarroTest" />
       <item itemvalue="Application.AnimeTest" />
       <item itemvalue="Application.UsuarioTest" />
       <item itemvalue="Application.calcNumbers" />
       <item itemvalue="Application.msgPersonalisada" />
-      <item itemvalue="Application.oop.inicializacao.sequencia.test.FuncionarioTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarroTest" />
         <item itemvalue="Application.AnimeTest" />
         <item itemvalue="Application.UsuarioTest" />
         <item itemvalue="Application.calcNumbers" />
         <item itemvalue="Application.msgPersonalisada" />
-        <item itemvalue="Application.oop.inicializacao.sequencia.test.FuncionarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +335,7 @@
       <workItem from="1780754253374" duration="53000" />
       <workItem from="1780956291231" duration="3263000" />
       <workItem from="1780993701767" duration="26000" />
-      <workItem from="1781119824127" duration="1097000" />
+      <workItem from="1781119824127" duration="3376000" />
     </task>
     <servers />
   </component>
@@ -604,6 +609,11 @@
           <url>file://$PROJECT_DIR$/Java-56/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-57/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
