@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-55/Java-55.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-55/src/oop/exercises/exercise01/msgPersonalisada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-55/src/oop/exercises/exercise02/calcNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-55/src/oop/exercises/exercise03/domain/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-55/src/oop/exercises/exercise03/test/UsuarioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-56/Java-56.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/test/AnimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +170,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -340,7 +330,7 @@
       <workItem from="1780754253374" duration="53000" />
       <workItem from="1780956291231" duration="3263000" />
       <workItem from="1780993701767" duration="26000" />
-      <workItem from="1781119824127" duration="309000" />
+      <workItem from="1781119824127" duration="1097000" />
     </task>
     <servers />
   </component>

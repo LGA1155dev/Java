@@ -1718,3 +1718,5 @@ Lembrando que a anotação @Override serve para sobreescrever metodos, ou substi
 
 
    
+=======
+<img width="1122" height="1402" alt="ChatGPT Image Jun 4, 2026, 12_38_13 PM" src="https://github.com/user-attachments/assets/6f3ca6d3-6871-4685-bfd2-b1318c326456" />
