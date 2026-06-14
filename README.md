@@ -30,7 +30,8 @@
 * [x] Dia 25 concluído
 * [x] Dia 26 concluído
 * [x] Dia 27 concluído
-* só falta mais 173 dias de estudo... pouco né?
+* [x] Dia 28 concluído
+* só falta mais 172 dias de estudo... pouco né?
 
 
 ---
@@ -1746,5 +1747,69 @@ public class Carro {
 Ai como a variavel é final, eu posso iniciar seu valor com o bloco de inicalização statico pois ele sempre será executado no codigo, não obtendo erro de compilação.
 
 
+
+
+## 📅 Dia 28
+
+
+
+### Modificador final em Tipos de Referência
+
+O que é o modificador final?
+
+O modificador final em linguagens orientadas a objetos (como Java) é utilizado para tornar uma variável imutável, ou seja, seu valor não pode ser alterado após a inicialização.
+
+Comportamento com Tipos de Referência
+Quando aplicamos o modificador final a uma variável que armazena uma referência a objeto, é importante entender o que exatamente se torna imutável:
+
+O que NÃO pode ser alterado:
+
+A referência em si: Não é possível fazer a variável apontar para um objeto diferente após a inicialização.
+O que PODE ser alterado:
+
+O estado interno do objeto:
+
+ Os atributos e dados dentro do objeto referenciado podem ser modificados normalmente.
+Exemplo Prático
+
+
+// Classe Carro
+class Carro {
+    String cor;
+    
+    public Carro(String cor) {
+        this.cor = cor;
+    }
+    
+    public void pintar(String novaCor) {
+        this.cor = novaCor;
+    }
+}
+
+// Uso do modificador final
+final Carro meuCarro = new Carro("Azul");
+
+// ❌ ILEGAL - tentativa de mudar a referência
+// meuCarro = new Carro("Vermelho"); // Erro de compilação!
+
+// ✅ PERMITIDO - modificar o estado do objeto
+meuCarro.pintar("Vermelho"); // Objeto agora tem cor "Vermelho"
+
+Conceito-Chave: Imutabilidade de Referência vs Imutabilidade de Objeto
+
+Referência final: A variável sempre apontará para o mesmo objeto na memória
+
+Objeto mutável: O conteúdo/estado desse objeto pode ser alterado livremente
+Aplicações Práticas
+
+Segurança: Garante que uma instância crítica não seja substituída acidentalmente
+
+Padrões de projeto: Utilizado em implementações como Singleton para garantir que a instância única não seja sobrescrita
+
+Boas práticas: Ajuda a tornar o código mais previsível e menos propenso a erros
+
+Dica Importante:
+
+Se você realmente precisar de um objeto imutável completo, além de declarar a referência como final, será necessário implementar a classe de forma que seus atributos também sejam imutáveis (atributos final e sem métodos setters).
 
    

@@ -1,10 +1,8 @@
 package oop.fin4l.modificador.domain;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
+@Data
 public class Carro {
-    @Getter
-    @Setter
     private String name;
 
     public static final double VELOCIDADE_LIMITE;
@@ -12,6 +10,4 @@ public class Carro {
     static{
         VELOCIDADE_LIMITE  = 250;
     }
-
-
 }

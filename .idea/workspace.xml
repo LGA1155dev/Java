@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-57/Java-57.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/domain/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/test/CarroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-58/Java-58.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-58/src/oop/exercises/configuracoes/domain/Configs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-58/src/oop/exercises/configuracoes/test/ConfigsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/Java-59.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/fake/dados/de/banco/domain/BancoDeDadosFake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/fake/dados/de/banco/test/BancoDeDadosFakeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/heranca/fin4l/metodo/domain/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/heranca/fin4l/metodo/domain/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/heranca/fin4l/metodo/test/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-59/src/heranca/fin4l/metodo/test/GerenteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/domain/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/domain/Comprador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/test/CarroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/test/CompradorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-56/src/toString/metodo/sobreescrita/domain/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-39/Java-39.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-39/Java-60.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/domain/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/domain/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-57/src/oop/fin4l/modificador/test/CarroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,7 @@
         <option value="Exception" />
         <option value="HTML File" />
         <option value="package-info" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -80,6 +94,7 @@
     "Application.ArraysNoJava03.executor": "Run",
     "Application.AvaliacaoTest.executor": "Run",
     "Application.BMW.executor": "Run",
+    "Application.BancoDeDadosFakeTest.executor": "Run",
     "Application.BreakEContinueNoJava.executor": "Run",
     "Application.BreakNoJava.executor": "Run",
     "Application.CaculadoraTest.executor": "Run",
@@ -90,6 +105,8 @@
     "Application.CalculatorTest03.executor": "Run",
     "Application.CalculatorTest04.executor": "Run",
     "Application.CarroTest.executor": "Run",
+    "Application.CompradorTest.executor": "Run",
+    "Application.ConfigsTest.executor": "Run",
     "Application.ContaBancariaTest.executor": "Run",
     "Application.ContadorParesUmAteUmMilhao.executor": "Run",
     "Application.ContadorTest.executor": "Run",
@@ -111,6 +128,7 @@
     "Application.ExerciseScanner.executor": "Run",
     "Application.FuncionarioTest.executor": "Run",
     "Application.FuncionarioTest01.executor": "Run",
+    "Application.GerenteTest.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.Java02.executor": "Run",
     "Application.Java02OlaDevDojo.executor": "Run",
@@ -149,6 +167,7 @@
     "Application.UsuarioTest.executor": "Run",
     "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
     "Application.calcNumbers.executor": "Run",
+    "Application.fin4l.referencia.tipo.test.CarroTest.executor": "Run",
     "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
     "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
     "Application.maratona.dev.dojo.Java03TipsPrimitives.executor": "Run",
@@ -186,7 +205,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-57/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-61/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -196,6 +215,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fin4l.referencia.tipo.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\Documents\Java" />
       <recent name="C:\Users\Gabriel\Documents\Java\Java-37\src" />
@@ -211,13 +233,13 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarroTest">
-    <configuration name="AnimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toString.metodo.sobreescrita.test.AnimeTest" />
-      <module name="Java-56" />
+  <component name="RunManager" selected="Application.CompradorTest">
+    <configuration name="BancoDeDadosFakeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fake.dados.de.banco.test.BancoDeDadosFakeTest" />
+      <module name="Java-59" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="toString.metodo.sobreescrita.test.*" />
+          <option name="PATTERN" value="fake.dados.de.banco.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.fin4l.modificador.test.CarroTest" />
-      <module name="Java-57" />
+    <configuration name="CompradorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fin4l.referencia.tipo.test.CompradorTest" />
+      <module name="Java-61" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.fin4l.modificador.test.*" />
+          <option name="PATTERN" value="fin4l.referencia.tipo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.exercises.exercise03.test.UsuarioTest" />
-      <module name="Java-55" />
+    <configuration name="FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heranca.fin4l.metodo.test.FuncionarioTest" />
+      <module name="Java-59" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.exercises.exercise03.test.*" />
+          <option name="PATTERN" value="heranca.fin4l.metodo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calcNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.exercises.exercise02.calcNumbers" />
-      <module name="Java-55" />
+    <configuration name="GerenteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heranca.fin4l.metodo.test.GerenteTest" />
+      <module name="Java-59" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.exercises.exercise02.*" />
+          <option name="PATTERN" value="heranca.fin4l.metodo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="msgPersonalisada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.exercises.exercise01.domain.msgPersonalisada" />
-      <module name="Java-55" />
+    <configuration name="fin4l.referencia.tipo.test.CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fin4l.referencia.tipo.test.CarroTest" />
+      <module name="Java-61" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.exercises.exercise01.domain.*" />
+          <option name="PATTERN" value="fin4l.referencia.tipo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CarroTest" />
-      <item itemvalue="Application.AnimeTest" />
-      <item itemvalue="Application.UsuarioTest" />
-      <item itemvalue="Application.calcNumbers" />
-      <item itemvalue="Application.msgPersonalisada" />
+      <item itemvalue="Application.CompradorTest" />
+      <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
+      <item itemvalue="Application.FuncionarioTest" />
+      <item itemvalue="Application.GerenteTest" />
+      <item itemvalue="Application.BancoDeDadosFakeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarroTest" />
-        <item itemvalue="Application.AnimeTest" />
-        <item itemvalue="Application.UsuarioTest" />
-        <item itemvalue="Application.calcNumbers" />
-        <item itemvalue="Application.msgPersonalisada" />
+        <item itemvalue="Application.CompradorTest" />
+        <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
+        <item itemvalue="Application.GerenteTest" />
+        <item itemvalue="Application.FuncionarioTest" />
+        <item itemvalue="Application.BancoDeDadosFakeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,12 +357,31 @@
       <workItem from="1780754253374" duration="53000" />
       <workItem from="1780956291231" duration="3263000" />
       <workItem from="1780993701767" duration="26000" />
-      <workItem from="1781119824127" duration="3376000" />
+      <workItem from="1781119824127" duration="3631000" />
+      <workItem from="1781179170624" duration="1517000" />
+      <workItem from="1781301352349" duration="1739000" />
+      <workItem from="1781316586080" duration="280000" />
+      <workItem from="1781350908940" duration="1442000" />
+      <workItem from="1781370375456" duration="2799000" />
+      <workItem from="1781439020251" duration="32000" />
+      <workItem from="1781446515513" duration="25000" />
+      <workItem from="1781467357402" duration="1582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,6 +655,26 @@
           <url>file://$PROJECT_DIR$/Java-57/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-58/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-59/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-60/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-61/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
