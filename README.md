@@ -1812,4 +1812,51 @@ Dica Importante:
 
 Se você realmente precisar de um objeto imutável completo, além de declarar a referência como final, será necessário implementar a classe de forma que seus atributos também sejam imutáveis (atributos final e sem métodos setters).
 
+
+
+### Modificador final em Orientação a Objetos
+
+Visão Geral
+
+Este conteúdo aborda o uso do modificador final em programação orientada a objetos, focando em sua aplicação em classes e métodos.
+
+Funcionalidades Principais
+
+Classes final
+
+Impede a herança: Classes declaradas como final não podem ser estendidas por subclasses
+
+Garante integridade: Assegura que o comportamento da classe permaneça inalterado
+
+Exemplo prático: A classe Ferrari ilustra cenários onde a herança deve ser proibida por questões de design ou segurança
+Métodos final
+
+Previne sobrescrita: Métodos final não podem ser sobrescritos em subclasses
+
+Mantém comportamento consistente: Garante que a implementação original seja preservada em toda a hierarquia de herança
+
+Protege lógica crítica: Ideal para métodos cuja lógica não deve ser alterada
+
+Benefícios do Uso de final
+
+Segurança: Evita modificações indesejadas no comportamento do código
+
+Performance: Em alguns casos, permite otimizações pelo compilador/JVM
+
+Design explícito: Comunica claramente as intenções do desenvolvedor original
+
+Manutenibilidade: Reduz a complexidade ao limitar possibilidades de extensão
+
+Casos de Uso Recomendados
+
+Classes utilitárias que não devem ser estendidas
+
+Métodos com lógica de negócio crítica que não pode ser alterada
+
+Implementações de segurança onde a integridade é fundamental
+
+Classes que representam entidades imutáveis ou completas
+
+Nota: O modificador final é uma ferramenta poderosa para criar APIs robustas e seguras, promovendo boas práticas de
+ encapsulamento e design orientado a objetos.
    
