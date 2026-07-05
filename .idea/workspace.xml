@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-62/Java-62.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/domain/TipoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/test/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/Java-63.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/Ninja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/RankNinja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/test/NinjaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/test/WeekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/Java-64.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/test/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -165,6 +160,7 @@
     "Application.WeekTest.executor": "Run",
     "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
     "Application.calcNumbers.executor": "Run",
+    "Application.enums.metodos.sobreescrita.test.ClientTest.executor": "Run",
     "Application.fin4l.referencia.tipo.test.CarroTest.executor": "Run",
     "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
     "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
@@ -197,13 +193,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/python",
+    "last_opened_file_path": "/home/gabriel/Documentos/GitHub/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-63/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-64/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -231,7 +227,7 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NinjaTest">
+  <component name="RunManager" selected="Application.enums.metodos.sobreescrita.test.ClientTest">
     <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.enumeracao.introducao.test.ClientTest" />
       <module name="Java-62" />
@@ -284,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fin4l.referencia.tipo.test.CarroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fin4l.referencia.tipo.test.CarroTest" />
-      <module name="Java-61" />
+    <configuration name="enums.metodos.sobreescrita.test.ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.metodos.sobreescrita.test.ClientTest" />
+      <module name="Java-64" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fin4l.referencia.tipo.test.*" />
+          <option name="PATTERN" value="enums.metodos.sobreescrita.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +294,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.enums.metodos.sobreescrita.test.ClientTest" />
       <item itemvalue="Application.NinjaTest" />
       <item itemvalue="Application.WeekTest" />
       <item itemvalue="Application.ClientTest" />
       <item itemvalue="Application.CompradorTest" />
-      <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.enums.metodos.sobreescrita.test.ClientTest" />
         <item itemvalue="Application.NinjaTest" />
         <item itemvalue="Application.WeekTest" />
         <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.CompradorTest" />
-        <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -685,6 +681,21 @@
           <url>file://$PROJECT_DIR$/Java-63/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Java-64/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java - 64/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-64/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
