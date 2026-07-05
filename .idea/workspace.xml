@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/domain/Ferrari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/domain/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-61/src/fin4l/referencia/tipo/domain/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-62/Java-62.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/domain/TipoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-62/src/oop/enumeracao/introducao/test/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/Java-63.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/DaysOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/Ninja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/RankNinja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/domain/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/test/NinjaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-63/src/understending/to/exercises/test/WeekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,7 @@
         <option value="HTML File" />
         <option value="package-info" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -88,6 +100,7 @@
     "Application.CalculatorTest03.executor": "Run",
     "Application.CalculatorTest04.executor": "Run",
     "Application.CarroTest.executor": "Run",
+    "Application.ClientTest.executor": "Run",
     "Application.CompradorTest.executor": "Run",
     "Application.ConfigsTest.executor": "Run",
     "Application.ContaBancariaTest.executor": "Run",
@@ -128,6 +141,7 @@
     "Application.Main.executor": "Run",
     "Application.MaiorNumTest.executor": "Run",
     "Application.MiniLoja.executor": "Run",
+    "Application.NinjaTest.executor": "Run",
     "Application.OperadiresDeAtribuicao.executor": "Run",
     "Application.OperadoresLogicos.executor": "Run",
     "Application.OperadoresRelacionais.executor": "Run",
@@ -148,6 +162,7 @@
     "Application.TiposPrimitivos.executor": "Run",
     "Application.UnoTest.executor": "Run",
     "Application.UsuarioTest.executor": "Run",
+    "Application.WeekTest.executor": "Run",
     "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
     "Application.calcNumbers.executor": "Run",
     "Application.fin4l.referencia.tipo.test.CarroTest.executor": "Run",
@@ -182,13 +197,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Documentos/GitHub/Java",
+    "last_opened_file_path": "/home/gabriel/python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-61/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-63/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -216,13 +231,13 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompradorTest">
-    <configuration name="BancoDeDadosFakeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fake.dados.de.banco.test.BancoDeDadosFakeTest" />
-      <module name="Java-59" />
+  <component name="RunManager" selected="Application.NinjaTest">
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.enumeracao.introducao.test.ClientTest" />
+      <module name="Java-62" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fake.dados.de.banco.test.*" />
+          <option name="PATTERN" value="oop.enumeracao.introducao.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heranca.fin4l.metodo.test.FuncionarioTest" />
-      <module name="Java-59" />
+    <configuration name="NinjaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="understending.to.exercises.test.NinjaTest" />
+      <module name="Java-63" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heranca.fin4l.metodo.test.*" />
+          <option name="PATTERN" value="understending.to.exercises.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GerenteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heranca.fin4l.metodo.test.GerenteTest" />
-      <module name="Java-59" />
+    <configuration name="WeekTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="understending.to.exercises.test.WeekTest" />
+      <module name="Java-63" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heranca.fin4l.metodo.test.*" />
+          <option name="PATTERN" value="understending.to.exercises.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,19 +298,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NinjaTest" />
+      <item itemvalue="Application.WeekTest" />
+      <item itemvalue="Application.ClientTest" />
       <item itemvalue="Application.CompradorTest" />
       <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
-      <item itemvalue="Application.FuncionarioTest" />
-      <item itemvalue="Application.GerenteTest" />
-      <item itemvalue="Application.BancoDeDadosFakeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NinjaTest" />
+        <item itemvalue="Application.WeekTest" />
+        <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.CompradorTest" />
         <item itemvalue="Application.fin4l.referencia.tipo.test.CarroTest" />
-        <item itemvalue="Application.GerenteTest" />
-        <item itemvalue="Application.FuncionarioTest" />
-        <item itemvalue="Application.BancoDeDadosFakeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +364,8 @@
       <workItem from="1781439020251" duration="32000" />
       <workItem from="1781446515513" duration="25000" />
       <workItem from="1781467357402" duration="2645000" />
+      <workItem from="1781541151672" duration="18000" />
+      <workItem from="1781541218277" duration="18000" />
     </task>
     <servers />
   </component>
@@ -658,6 +675,16 @@
           <url>file://$PROJECT_DIR$/Java-61/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-62/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-63/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
