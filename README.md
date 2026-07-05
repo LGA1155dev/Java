@@ -31,7 +31,8 @@
 * [x] Dia 26 concluído
 * [x] Dia 27 concluído
 * [x] Dia 28 concluído
-* só falta mais 172 dias de estudo... pouco né?
+* [x] Dia 29 concluído
+* só falta mais 171 dias de estudo... pouco né?
 
 
 ---
@@ -1859,4 +1860,89 @@ Classes que representam entidades imutáveis ou completas
 
 Nota: O modificador final é uma ferramenta poderosa para criar APIs robustas e seguras, promovendo boas práticas de
  encapsulamento e design orientado a objetos.
+ 
+ 
+## 📅 Dia 29
+
+📘 Java - Métodos em Enums e Sobrescrita de Métodos
+📖 O que são métodos em Enums?
+
+Em Java, um enum não serve apenas para armazenar constantes. Ele também pode possuir:
+
+Atributos
+Construtores
+Métodos
+Implementar interfaces
+Sobrescrever métodos para cada constante
+
+Isso torna os enums muito mais poderosos do que simples listas de valores.
+
+🎯 Para que servem?
+
+Os métodos em enum permitem associar comportamentos diretamente aos valores da enumeração.
+
+Em vez de utilizar vários if ou switch, cada constante pode saber exatamente como deve agir.
+
+Isso torna o código:
+
+Mais organizado;
+Mais legível;
+Mais orientado a objetos;
+Mais fácil de manter.
+🛠️ Quando utilizar?
+
+É recomendado utilizar quando:
+
+Cada constante possui um comportamento próprio;
+Existe uma lógica específica para cada valor do enum;
+Você deseja evitar grandes estruturas de decisão (switch e if/else);
+Os comportamentos estão diretamente relacionados às constantes.
+
+Exemplos comuns:
+
+Formas de pagamento;
+Tipos de usuário;
+Estados de um sistema;
+Níveis de acesso;
+Estratégias diferentes para cada opção.
+🔄 Sobrescrita de Métodos em Enums
+
+Uma das funcionalidades mais interessantes do Java é permitir que cada constante do enum sobrescreva um método.
+
+Na prática, cada valor do enum pode possuir sua própria implementação.
+
+Exemplo de conceito:
+
+PIX pode processar um pagamento de uma forma;
+CARTAO de outra;
+BOLETO de outra totalmente diferente.
+
+Todos utilizam o mesmo método, porém cada constante executa uma lógica diferente.
+
+Esse conceito é uma aplicação prática de polimorfismo.
+
+✅ Vantagens
+Elimina diversos switch.
+Facilita manutenção.
+Código mais limpo.
+Melhor organização.
+Segue melhor os princípios da Programação Orientada a Objetos (POO).
+Cada constante fica responsável pelo próprio comportamento.
+📚 O que aprendi
+
+Durante este estudo aprendi que:
+
+Um enum pode conter muito mais do que apenas constantes.
+É possível criar atributos e construtores dentro de um enum.
+Enums podem possuir métodos comuns.
+Cada constante pode sobrescrever métodos individualmente.
+A sobrescrita permite implementar diferentes comportamentos para cada constante.
+Essa técnica reduz a necessidade de estruturas condicionais extensas.
+O uso de enums com comportamento aproxima o código dos princípios do polimorfismo e da orientação a objetos.
+Enums são uma excelente opção quando cada valor possui uma responsabilidade específica.
+💡 Conclusão
+
+Antes eu enxergava enum apenas como uma lista de constantes. Agora entendo que ele também pode encapsular comportamentos, tornando o código mais organizado, reutilizável e orientado a objetos.
+
+Sempre que diferentes opções precisarem executar ações distintas, utilizar métodos e sobrescrita dentro de um enum pode ser uma solução elegante e muito mais limpa do que utilizar vários if ou switch.
    
