@@ -18,4 +18,6 @@ public class Cliente {
                 "\nAge: " + this.age +
                 "\nTipoCliente:  " + tipoCliente;
     }
+
+
 }

@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-64/Java-64.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Pagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/test/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/Java-65.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/GameDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/TipoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/domain/TipoPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/test/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-65/src/jv/on/abstratas/classes/test/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-66/Java-66.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-66/src/primeiro/codigo/jv/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/domain/TipoPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-64/src/enums/metodos/sobreescrita/test/ClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +130,7 @@
     "Application.FuncionarioTest01.executor": "Run",
     "Application.GerenteTest.executor": "Run",
     "Application.HelloJava.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
     "Application.Java02.executor": "Run",
     "Application.Java02OlaDevDojo.executor": "Run",
     "Application.Java03TiposPrimitives.executor": "Run",
@@ -163,6 +173,7 @@
     "Application.enums.metodos.sobreescrita.test.ClientTest.executor": "Run",
     "Application.fin4l.referencia.tipo.test.CarroTest.executor": "Run",
     "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
+    "Application.jv.on.abstratas.classes.test.ClientTest.executor": "Run",
     "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
     "Application.maratona.dev.dojo.Java03TipsPrimitives.executor": "Run",
     "Application.msgPersonalisada.executor": "Run",
@@ -199,7 +210,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-64/src/Main.java",
+    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-66/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -227,13 +238,13 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.enums.metodos.sobreescrita.test.ClientTest">
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.enumeracao.introducao.test.ClientTest" />
-      <module name="Java-62" />
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="FuncionarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jv.on.abstratas.classes.test.FuncionarioTest" />
+      <module name="Java-65" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.enumeracao.introducao.test.*" />
+          <option name="PATTERN" value="jv.on.abstratas.classes.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompradorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fin4l.referencia.tipo.test.CompradorTest" />
-      <module name="Java-61" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeiro.codigo.jv.HelloWorld" />
+      <module name="Java-66" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fin4l.referencia.tipo.test.*" />
+          <option name="PATTERN" value="primeiro.codigo.jv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,19 +267,6 @@
     </configuration>
     <configuration name="NinjaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="understending.to.exercises.test.NinjaTest" />
-      <module name="Java-63" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="understending.to.exercises.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeekTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="understending.to.exercises.test.WeekTest" />
       <module name="Java-63" />
       <extension name="coverage">
         <pattern>
@@ -293,20 +291,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jv.on.abstratas.classes.test.ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jv.on.abstratas.classes.test.ClientTest" />
+      <module name="Java-65" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jv.on.abstratas.classes.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.FuncionarioTest" />
+      <item itemvalue="Application.jv.on.abstratas.classes.test.ClientTest" />
       <item itemvalue="Application.enums.metodos.sobreescrita.test.ClientTest" />
       <item itemvalue="Application.NinjaTest" />
-      <item itemvalue="Application.WeekTest" />
-      <item itemvalue="Application.ClientTest" />
-      <item itemvalue="Application.CompradorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.FuncionarioTest" />
+        <item itemvalue="Application.jv.on.abstratas.classes.test.ClientTest" />
         <item itemvalue="Application.enums.metodos.sobreescrita.test.ClientTest" />
         <item itemvalue="Application.NinjaTest" />
-        <item itemvalue="Application.WeekTest" />
-        <item itemvalue="Application.ClientTest" />
-        <item itemvalue="Application.CompradorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -696,6 +707,16 @@
           <url>file://$PROJECT_DIR$/Java-64/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-65/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-66/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />

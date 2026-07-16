@@ -15,5 +15,7 @@ public class ClientTest {
         System.out.println(cliente);
         System.out.println(pagamento);
         System.out.println("Desconto: " + TipoPagamento.DEBITO.calcularDesconto(160) + " R$");
+        System.out.println(TipoCliente.valueOf("PESSOA_FISICA"));
+        System.out.println(TipoCliente.tipoClientePorNomeDoRelatorio("Pessoa Fisica"));
     }
 }
