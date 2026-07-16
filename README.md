@@ -32,7 +32,8 @@
 * [x] Dia 27 concluído
 * [x] Dia 28 concluído
 * [x] Dia 29 concluído
-* só falta mais 171 dias de estudo... pouco né?
+* [x] Dia 30 concluído
+* só falta mais 170 dias de estudo... pouco né?
 
 
 ---
@@ -1945,4 +1946,206 @@ Enums são uma excelente opção quando cada valor possui uma responsabilidade e
 Antes eu enxergava enum apenas como uma lista de constantes. Agora entendo que ele também pode encapsular comportamentos, tornando o código mais organizado, reutilizável e orientado a objetos.
 
 Sempre que diferentes opções precisarem executar ações distintas, utilizar métodos e sobrescrita dentro de um enum pode ser uma solução elegante e muito mais limpa do que utilizar vários if ou switch.
+
+
+## 📅 Dia 30
+
+# Abstração, classes abstratas e metodos abstratos
+
+# Métodos Abstratos e Classes Abstratas em Java
+
+## O que é um método abstrato?
+
+Um **método abstrato** é um método que possui apenas a sua **assinatura** (nome, parâmetros e tipo de retorno), mas **não possui implementação** (corpo do método).
+
+Ele é declarado utilizando a palavra-chave `abstract`.
+
+### Exemplo
+
+```java
+abstract class Animal {
+
+    public abstract void emitirSom();
+
+}
+```
+
+No exemplo acima, o método `emitirSom()` foi declarado, mas não foi implementado.
+
+---
+
+## Para que serve um método abstrato?
+
+O principal objetivo de um método abstrato é **obrigar as classes filhas a fornecerem sua própria implementação**.
+
+Isso garante que todas as subclasses possuam determinado comportamento, mesmo que cada uma o execute de forma diferente.
+
+Exemplo:
+
+```java
+abstract class Animal {
+
+    public abstract void emitirSom();
+
+}
+
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au");
+    }
+
+}
+
+class Gato extends Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Miau");
+    }
+
+}
+```
+
+Nesse caso, tanto `Cachorro` quanto `Gato` são obrigados a implementar o método `emitirSom()`.
+
+---
+
+## Quando utilizar métodos abstratos?
+
+Os métodos abstratos são utilizados quando existe um comportamento que **todas as subclasses devem possuir**, mas **cada uma implementará de maneira diferente**.
+
+São muito úteis quando:
+
+* Existe uma característica comum entre várias classes.
+* Deseja-se padronizar o comportamento das subclasses.
+* Cada classe precisa de uma implementação específica para determinada ação.
+
+Exemplos comuns:
+
+* Um sistema de pagamentos (`pagar()`).
+* Um jogo com diferentes personagens (`atacar()`).
+* Veículos (`ligarMotor()`).
+* Animais (`emitirSom()`).
+
+---
+
+# Classes Abstratas
+
+## O que é uma classe abstrata?
+
+Uma **classe abstrata** é uma classe declarada com a palavra-chave `abstract`.
+
+Ela serve como um **modelo (base)** para outras classes.
+
+Uma classe abstrata pode conter:
+
+* Métodos abstratos.
+* Métodos comuns (com implementação).
+* Atributos.
+* Construtores.
+
+Exemplo:
+
+```java
+abstract class Animal {
+
+    protected String nome;
+
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+
+    public void dormir() {
+        System.out.println(nome + " está dormindo.");
+    }
+
+    public abstract void emitirSom();
+
+}
+```
+
+---
+
+## Características das classes abstratas
+
+* Não podem ser instanciadas diretamente.
+
+```java
+Animal animal = new Animal(); // Erro
+```
+
+* Servem apenas como classe base para herança.
+
+* Podem possuir métodos implementados e métodos abstratos ao mesmo tempo.
+
+* As subclasses são obrigadas a implementar todos os métodos abstratos, caso contrário também deverão ser declaradas como `abstract`.
+
+---
+
+## Exemplo completo
+
+```java
+abstract class Animal {
+
+    public abstract void emitirSom();
+
+    public void dormir() {
+        System.out.println("Dormindo...");
+    }
+
+}
+
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au");
+    }
+
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Cachorro cachorro = new Cachorro();
+
+        cachorro.emitirSom();
+        cachorro.dormir();
+
+    }
+
+}
+```
+
+Saída:
+
+```
+Au Au
+Dormindo...
+```
+
+---
+
+# Diferença entre método abstrato e método comum
+
+| Método Abstrato                                       | Método Comum                                       |
+| ----------------------------------------------------- | -------------------------------------------------- |
+| Não possui implementação.                             | Possui implementação.                              |
+| É declarado com `abstract`.                           | Não utiliza `abstract`.                            |
+| Obriga as subclasses a implementarem o método.        | A implementação já está pronta e pode ser herdada. |
+| Só pode existir em classes abstratas (ou interfaces). | Pode existir em qualquer classe.                   |
+
+---
+
+# Resumo
+
+* Um **método abstrato** possui apenas a assinatura e não possui implementação.
+* Ele serve para obrigar as subclasses a implementarem determinado comportamento.
+* Uma **classe abstrata** funciona como uma classe base que não pode ser instanciada.
+* Classes abstratas podem possuir tanto métodos abstratos quanto métodos concretos.
+* São utilizadas para compartilhar características comuns e garantir que determinadas funcionalidades sejam implementadas pelas classes filhas.
+
    
