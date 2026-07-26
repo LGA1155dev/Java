@@ -32,8 +32,9 @@
 * [x] Dia 27 concluído
 * [x] Dia 28 concluído
 * [x] Dia 29 concluído
-* [x] Dia 30 concluído
-* só falta mais 170 dias de estudo... pouco né?
+* [X] Dia 30 concluído
+* [x] Dia 31 concluído
+* só falta mais 169 dias de estudo... pouco né?
 
 
 ---
@@ -2148,4 +2149,96 @@ Dormindo...
 * Classes abstratas podem possuir tanto métodos abstratos quanto métodos concretos.
 * São utilizadas para compartilhar características comuns e garantir que determinadas funcionalidades sejam implementadas pelas classes filhas.
 
+
    
+## 📅 Dia 31
+   
+## Interfaces
+
+As **interfaces** são contratos que definem quais propriedades e métodos um objeto deve possuir. Elas não implementam a lógica, apenas especificam a estrutura que uma classe, objeto ou função deve seguir.
+
+### Para que servem?
+
+- Garantem padronização entre diferentes implementações.
+- Facilitam a manutenção e organização do código.
+- Melhoram a legibilidade e a reutilização.
+- Ajudam o TypeScript a identificar erros durante o desenvolvimento.
+- Tornam o código mais seguro e previsível.
+
+### Exemplo
+
+```ts
+interface Usuario {
+  nome: string;
+  idade: number;
+}
+
+const usuario: Usuario = {
+  nome: "João",
+  idade: 20,
+};
+```
+
+Nesse exemplo, qualquer objeto do tipo `Usuario` deverá possuir as propriedades `nome` e `idade`.
+
+---
+
+## O que é `default`?
+
+A palavra-chave **`default`** possui diferentes usos dependendo do contexto, mas o mais comum é na exportação de módulos.
+
+Quando utilizamos `export default`, estamos definindo a exportação principal de um arquivo. Isso permite importá-la com qualquer nome.
+
+### Exemplo
+
+```ts
+// Usuario.ts
+export default interface Usuario {
+  nome: string;
+  idade: number;
+}
+```
+
+Importando:
+
+```ts
+import Usuario from "./Usuario";
+```
+
+Sem `default`, seria necessário utilizar uma exportação nomeada:
+
+```ts
+// Usuario.ts
+export interface Usuario {
+  nome: string;
+  idade: number;
+}
+```
+
+Importando:
+
+```ts
+import { Usuario } from "./Usuario";
+```
+
+### Resumo
+
+- **Com `default`**
+  - Existe apenas uma exportação principal no arquivo.
+  - Pode ser importada com qualquer nome.
+
+```ts
+import MeuTipo from "./Usuario";
+```
+
+- **Sem `default`**
+  - A exportação possui um nome específico.
+  - A importação deve usar exatamente esse nome, entre chaves.
+
+```ts
+import { Usuario } from "./Usuario";
+```
+
+## Conclusão
+
+As interfaces são fundamentais para definir a estrutura dos dados e tornar o código mais organizado e seguro. Já o `default` facilita a exportação da entidade principal de um arquivo, simplificando sua importação em outras partes do projeto.
