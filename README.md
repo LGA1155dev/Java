@@ -2155,90 +2155,90 @@ Dormindo...
    
 ## Interfaces
 
-As **interfaces** são contratos que definem quais propriedades e métodos um objeto deve possuir. Elas não implementam a lógica, apenas especificam a estrutura que uma classe, objeto ou função deve seguir.
+Em Java, uma **interface** é um tipo que define um conjunto de métodos que uma classe deve implementar. Ela funciona como um contrato, garantindo que todas as classes que implementarem essa interface possuam os métodos definidos nela.
+
+As interfaces não armazenam o estado de um objeto (atributos de instância), mas podem declarar constantes e métodos.
 
 ### Para que servem?
 
-- Garantem padronização entre diferentes implementações.
-- Facilitam a manutenção e organização do código.
-- Melhoram a legibilidade e a reutilização.
-- Ajudam o TypeScript a identificar erros durante o desenvolvimento.
-- Tornam o código mais seguro e previsível.
+- Definir um contrato entre classes.
+- Permitir que diferentes classes tenham o mesmo comportamento.
+- Facilitar o polimorfismo.
+- Tornar o código mais organizado, reutilizável e desacoplado.
+- Facilitar a manutenção e a evolução do sistema.
 
 ### Exemplo
 
-```ts
-interface Usuario {
-  nome: string;
-  idade: number;
+```java
+public interface Animal {
+    void emitirSom();
 }
-
-const usuario: Usuario = {
-  nome: "João",
-  idade: 20,
-};
 ```
 
-Nesse exemplo, qualquer objeto do tipo `Usuario` deverá possuir as propriedades `nome` e `idade`.
+Uma classe implementando a interface:
+
+```java
+public class Cachorro implements Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au!");
+    }
+}
+```
+
+Neste exemplo, toda classe que implementar a interface `Animal` será obrigada a implementar o método `emitirSom()`.
 
 ---
 
-## O que é `default`?
+## O que são métodos `default`?
 
-A palavra-chave **`default`** possui diferentes usos dependendo do contexto, mas o mais comum é na exportação de módulos.
+A partir do Java 8, as interfaces podem possuir **métodos `default`**, ou seja, métodos que já possuem uma implementação padrão.
 
-Quando utilizamos `export default`, estamos definindo a exportação principal de um arquivo. Isso permite importá-la com qualquer nome.
+Isso permite adicionar novos métodos em uma interface sem quebrar as classes que já a implementam.
 
 ### Exemplo
 
-```ts
-// Usuario.ts
-export default interface Usuario {
-  nome: string;
-  idade: number;
+```java
+public interface Animal {
+
+    void emitirSom();
+
+    default void dormir() {
+        System.out.println("O animal está dormindo.");
+    }
 }
 ```
 
-Importando:
+Agora qualquer classe que implemente `Animal` poderá usar o método `dormir()` sem precisar implementá-lo.
 
-```ts
-import Usuario from "./Usuario";
-```
+```java
+public class Cachorro implements Animal {
 
-Sem `default`, seria necessário utilizar uma exportação nomeada:
-
-```ts
-// Usuario.ts
-export interface Usuario {
-  nome: string;
-  idade: number;
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au!");
+    }
 }
 ```
 
-Importando:
+Uso:
 
-```ts
-import { Usuario } from "./Usuario";
+```java
+Animal cachorro = new Cachorro();
+
+cachorro.emitirSom();
+cachorro.dormir();
 ```
 
-### Resumo
+### Vantagens dos métodos `default`
 
-- **Com `default`**
-  - Existe apenas uma exportação principal no arquivo.
-  - Pode ser importada com qualquer nome.
+- Permitem adicionar novas funcionalidades às interfaces sem afetar implementações existentes.
+- Evitam duplicação de código quando várias classes compartilham o mesmo comportamento.
+- Mantêm a compatibilidade com versões anteriores do código.
 
-```ts
-import MeuTipo from "./Usuario";
-```
+## Resumo
 
-- **Sem `default`**
-  - A exportação possui um nome específico.
-  - A importação deve usar exatamente esse nome, entre chaves.
-
-```ts
-import { Usuario } from "./Usuario";
-```
-
-## Conclusão
-
-As interfaces são fundamentais para definir a estrutura dos dados e tornar o código mais organizado e seguro. Já o `default` facilita a exportação da entidade principal de um arquivo, simplificando sua importação em outras partes do projeto.
+- **Interface:** define um contrato que as classes devem seguir.
+- **implements:** palavra-chave utilizada para implementar uma interface.
+- **default:** permite criar métodos com implementação dentro da interface, que podem ser utilizados ou sobrescritos pelas classes que a implementam.
