@@ -34,7 +34,8 @@
 * [x] Dia 29 concluído
 * [X] Dia 30 concluído
 * [x] Dia 31 concluído
-* só falta mais 169 dias de estudo... pouco né?
+* [x] Dia 32 concluído
+* só falta mais 168 dias de estudo... pouco né?
 
 
 ---
@@ -2242,3 +2243,117 @@ cachorro.dormir();
 - **Interface:** define um contrato que as classes devem seguir.
 - **implements:** palavra-chave utilizada para implementar uma interface.
 - **default:** permite criar métodos com implementação dentro da interface, que podem ser utilizados ou sobrescritos pelas classes que a implementam.
+
+## 📅 Dia 31 
+
+## 🏗️ Service e Repository
+
+Durante meus estudos de Java, comecei a trabalhar com uma organização em camadas, separando as responsabilidades da aplicação em diferentes partes. Duas camadas importantes nesse modelo são **Service** e **Repository**.
+
+### ⚙️ Service
+
+A camada **Service** é responsável por concentrar as **regras de negócio** da aplicação.
+
+É nela que ficam as decisões e validações que determinam **como o sistema deve funcionar**.
+
+Por exemplo, em um sistema de usuários, o Service poderia:
+
+* Verificar se um usuário já existe antes de cadastrá-lo;
+* Validar determinadas regras do cadastro;
+* Realizar cálculos ou processamentos;
+* Coordenar operações que envolvem mais de um Repository;
+* Decidir quando uma determinada operação pode ou não ser realizada.
+
+Exemplo:
+
+```java
+@Service
+public class UserService {
+
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public void cadastrar(User user) {
+        if (userRepository.existsByEmail(user.getEmail())) {
+            throw new RuntimeException("E-mail já cadastrado");
+        }
+
+        userRepository.save(user);
+    }
+}
+```
+
+Nesse exemplo, o `UserService` não está preocupado diretamente com **como os dados são armazenados**. Ele apenas aplica a regra de negócio e utiliza o Repository para realizar a operação necessária.
+
+---
+
+### 🗄️ Repository
+
+A camada **Repository** é responsável pelo **acesso e persistência dos dados**.
+
+Sua função é fazer a comunicação entre a aplicação e a fonte de dados, como um banco de dados.
+
+Por exemplo, um Repository pode ser responsável por:
+
+* Salvar dados;
+* Buscar dados;
+* Atualizar registros;
+* Remover registros;
+* Verificar se determinado registro existe.
+
+Com Spring Data JPA, muitas vezes podemos criar um Repository simplesmente estendendo uma interface:
+
+```java
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+
+    boolean existsByEmail(String email);
+}
+```
+
+O Repository não deve conter as regras de negócio. Ele deve estar focado em **acessar os dados**.
+
+---
+
+### 🔄 Como Service e Repository trabalham juntos?
+
+De forma simplificada:
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Banco de Dados
+```
+
+Cada camada possui uma responsabilidade:
+
+| Camada             | Responsabilidade                   |
+| ------------------ | ---------------------------------- |
+| **Controller**     | Receber e responder às requisições |
+| **Service**        | Aplicar regras de negócio          |
+| **Repository**     | Acessar e persistir dados          |
+| **Banco de Dados** | Armazenar os dados                 |
+
+Essa separação ajuda a manter o código **organizado, reutilizável e mais fácil de testar e manter**.
+
+A principal ideia que estou aprendendo é:
+
+> **Service decide o que deve acontecer. Repository cuida de como os dados são acessados.**
+
+
+
+## 📅 Dia 32 
+
+### Finalmente sainda dessa porra de orientação a objeto, mas iniciando em exceptions 💀... 
+
+
+
+
+

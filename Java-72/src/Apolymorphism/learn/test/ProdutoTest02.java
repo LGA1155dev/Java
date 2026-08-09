@@ -1,9 +1,9 @@
-package polymorphism.learn.test;
+package Apolymorphism.learn.test;
 
-import polymorphism.learn.domain.Computador;
-import polymorphism.learn.domain.Produto;
-import polymorphism.learn.domain.Televisao;
-import polymorphism.learn.domain.Tomate;
+import Apolymorphism.learn.domain.Computador;
+import Apolymorphism.learn.domain.Produto;
+import Apolymorphism.learn.domain.Televisao;
+import Apolymorphism.learn.domain.Tomate;
 
 public class ProdutoTest02 {
     public static void main(String[] args) {
