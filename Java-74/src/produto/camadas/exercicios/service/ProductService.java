@@ -11,7 +11,7 @@ public class ProductService {
         }
 
         if (product.getQuantity() <= 0) {
-            RuntimeException runtimeException = new RuntimeException("");
+            RuntimeException runtimeException = new RuntimeException("Erro a quantidade não pode ser menor ou igual a 0");
         }
 
     }

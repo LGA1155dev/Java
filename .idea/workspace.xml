@@ -5,35 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/service/RepositoryDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/service/RepositoryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/service/RepositoryMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/test/RepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/domain/CreateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/domain/DomQxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/domain/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/service/RepositoryDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-72/src/Bpolymorphism/learn/test/LivroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-74/Java-74.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/domain/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/test/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-75/Java-75.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-75/src/exception/runtime/test/RuntimeExceptionTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-76/Java-76.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-76/src/now/exception/understand/test/RuntimeExceptionTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-76/src/now/exception/understand/test/RuntimeExceptionTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-77/Java-77.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-77/src/exercise/account/bank/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-77/src/exercise/account/bank/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-77/src/exercise/account/bank/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-77/src/exercise/account/bank/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/Java-78.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/src/library/of/system/small/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/src/library/of/system/small/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/src/library/of/system/small/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/src/library/of/system/small/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-78/src/library/of/system/small/services/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-79/Java-79.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/domain/Computador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/domain/Computador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/domain/Taxavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/domain/Taxavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/domain/Televisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/domain/Televisao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/domain/Tomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/domain/Tomate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/service/CalculadoraImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/service/CalculadoraImposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/test/ProdutoTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/test/ProdutoTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/test/ProdutoTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/test/ProdutoTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-72/src/polymorphism/learn/test/ProdutoTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-72/src/Apolymorphism/learn/test/ProdutoTest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-74/src/produto/camadas/exercicios/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,162 +81,167 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AindaEmTiposPrimitivos.executor": "Run",
-    "Application.Ajogadores.oop.exercicios.test.JogadorTest01.executor": "Run",
-    "Application.AlunoTest.executor": "Run",
-    "Application.AnimeTest.executor": "Run",
-    "Application.AnimeTest01.executor": "Run",
-    "Application.ArraysEForEach.executor": "Run",
-    "Application.ArraysMultidimensionais.executor": "Run",
-    "Application.ArraysMultidimensionais02.executor": "Run",
-    "Application.ArraysMultidimensionaisForEach.executor": "Run",
-    "Application.ArraysNoJava.executor": "Run",
-    "Application.ArraysNoJava02.executor": "Run",
-    "Application.ArraysNoJava03.executor": "Run",
-    "Application.AvaliacaoTest.executor": "Run",
-    "Application.BMW.executor": "Run",
-    "Application.BancoDeDadosFakeTest.executor": "Run",
-    "Application.BreakEContinueNoJava.executor": "Run",
-    "Application.BreakNoJava.executor": "Run",
-    "Application.CaculadoraTest.executor": "Run",
-    "Application.CalculadoraTest.executor": "Run",
-    "Application.CalculadoraTest02.executor": "Run",
-    "Application.CalculatorTest.executor": "Run",
-    "Application.CalculatorTest02.executor": "Run",
-    "Application.CalculatorTest03.executor": "Run",
-    "Application.CalculatorTest04.executor": "Run",
-    "Application.CarroTest.executor": "Run",
-    "Application.ClientTest.executor": "Run",
-    "Application.CompradorTest.executor": "Run",
-    "Application.ConfigsTest.executor": "Run",
-    "Application.ContaBancariaTest.executor": "Run",
-    "Application.ContadorParesUmAteUmMilhao.executor": "Run",
-    "Application.ContadorTest.executor": "Run",
-    "Application.ConvertBasesTest.executor": "Run",
-    "Application.DataLoadTest.executor": "Run",
-    "Application.Escola01Test.executor": "Run",
-    "Application.EstruturasCondicionais.executor": "Run",
-    "Application.EstruturasDeRepeticao.executor": "Run",
-    "Application.EstruturasRepeticao.executor": "Run",
-    "Application.EstudanteTest.executor": "Run",
-    "Application.EstudanteTest02.executor": "Run",
-    "Application.ExercicioArray.executor": "Run",
-    "Application.ExercicioArray02.executor": "Run",
-    "Application.ExercicioImposto.executor": "Run",
-    "Application.ExercicioSwitchCaseDiasUteis.executor": "Run",
-    "Application.ExercicioVerificarJogador.executor": "Run",
-    "Application.ExerciciosJava.executor": "Run",
-    "Application.ExerciciosJavaDois.executor": "Run",
-    "Application.ExerciciosNoJava04.executor": "Run",
-    "Application.ExerciseScanner.executor": "Run",
-    "Application.FuncionarioTest.executor": "Run",
-    "Application.FuncionarioTest01.executor": "Run",
-    "Application.GerenteTest.executor": "Run",
-    "Application.HelloJava.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.ImpressãoTest.executor": "Run",
-    "Application.Java02.executor": "Run",
-    "Application.Java02OlaDevDojo.executor": "Run",
-    "Application.Java03TiposPrimitives.executor": "Run",
-    "Application.Java03TiposPrimitivos.executor": "Run",
-    "Application.Java03TipsPrimitives.executor": "Run",
-    "Application.Java04TipsPrimitives.executor": "Run",
-    "Application.JogadorTest.executor": "Run",
-    "Application.JogadorTest01.executor": "Run",
-    "Application.JogadorTest02.executor": "Run",
-    "Application.JuntadorDeNomesTest.executor": "Run",
-    "Application.KauaTest.executor": "Run",
-    "Application.LeituraDeDadosScanner.executor": "Run",
-    "Application.LivroTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaiorNumTest.executor": "Run",
-    "Application.MiniLoja.executor": "Run",
-    "Application.NinjaTest.executor": "Run",
-    "Application.NoPointerException.executor": "Run",
-    "Application.OS.executor": "Run",
-    "Application.OSTest.executor": "Run",
-    "Application.OperadiresDeAtribuicao.executor": "Run",
-    "Application.OperadoresLogicos.executor": "Run",
-    "Application.OperadoresRelacionais.executor": "Run",
-    "Application.OperadoresTernarios.executor": "Run",
-    "Application.ParOuImparTest.executor": "Run",
-    "Application.PessoaTest.executor": "Run",
-    "Application.ProdutoTest01.executor": "Run",
-    "Application.ProdutoTest02.executor": "Run",
-    "Application.ProdutoTest03.executor": "Run",
-    "Application.PublicacaoTest.executor": "Run",
-    "Application.RepositoryTest.executor": "Run",
-    "Application.SecurityToolTest.executor": "Run",
-    "Application.SeminarioTest.executor": "Run",
-    "Application.StringsNoJava.executor": "Run",
-    "Application.StudantTest.executor": "Run",
-    "Application.StudentTest.executor": "Run",
-    "Application.SwitchCaseJava.executor": "Run",
-    "Application.Tabuada.executor": "Run",
-    "Application.TabuadaTest.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "Application.TesteComSwing.executor": "Run",
-    "Application.TesteSyntax.executor": "Run",
-    "Application.TimeTest.executor": "Run",
-    "Application.TiposPrimitivos.executor": "Run",
-    "Application.UnoTest.executor": "Run",
-    "Application.UsuarioTest.executor": "Run",
-    "Application.WeekTest.executor": "Run",
-    "Application.arrays.praticando.aprendendo.ArraysNoJava.executor": "Run",
-    "Application.calcNumbers.executor": "Run",
-    "Application.dois.parte.jv.on.abstratas.classes.test.FuncionarioTest.executor": "Run",
-    "Application.enums.metodos.sobreescrita.test.ClientTest.executor": "Run",
-    "Application.fin4l.referencia.tipo.test.CarroTest.executor": "Run",
-    "Application.inicializacao.de.blocos.test.AnimeTest.executor": "Run",
-    "Application.jv.abstratas.classes.test.FuncionarioTest.executor": "Run",
-    "Application.jv.on.abstratas.classes.test.ClientTest.executor": "Run",
-    "Application.maratona.dev.dojo.Java02OlaDevDojo.executor": "Run",
-    "Application.maratona.dev.dojo.Java03TipsPrimitives.executor": "Run",
-    "Application.msgPersonalisada.executor": "Run",
-    "Application.objeto.orientacao.exercise.test.FuncionarioTest.executor": "Run",
-    "Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor": "Run",
-    "Application.oop.construtores.estudando.test.AnimeTest.executor": "Debug",
-    "Application.oop.inicializacao.sequencia.test.FuncionarioTest.executor": "Run",
-    "Application.referencia.tipo.parametros.estudando.test.StudentTest.executor": "Run",
-    "Application.referencia.tipos.parametros.test.StudentTest.executor": "Run",
-    "Application.sozinho.objeto.criando.test.EstudanteTest.executor": "Run",
-    "Application.sozinho.objeto.criando.test.EstudanteTest02.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JavaScript Debug.funcionarioDocumentation.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Downloads/Fridge",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/gabriel/Documentos/GitHub/Java/Java-74/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AindaEmTiposPrimitivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ajogadores.oop.exercicios.test.JogadorTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlunoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimeTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysEForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysMultidimensionais.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysMultidimensionais02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysMultidimensionaisForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysNoJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysNoJava02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysNoJava03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AvaliacaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMW.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BancoDeDadosFakeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreakEContinueNoJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreakNoJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaculadoraTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculadoraTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculadoraTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorTest03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorTest04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarroTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompradorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContaBancariaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContadorParesUmAteUmMilhao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertBasesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataLoadTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Escola01Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstruturasDeRepeticao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstruturasRepeticao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstudanteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstudanteTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionText01.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExercicioArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExercicioArray02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExercicioImposto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExercicioSwitchCaseDiasUteis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExercicioVerificarJogador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerciciosJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerciciosJavaDois.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerciciosNoJava04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerciseScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuncionarioTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GerenteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImpressãoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java02OlaDevDojo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java03TiposPrimitives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java03TiposPrimitivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java03TipsPrimitives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java04TipsPrimitives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JogadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JogadorTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JogadorTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JuntadorDeNomesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KauaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeituraDeDadosScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LivroTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaiorNumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiniLoja.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NinjaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoPointerException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OSTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadiresDeAtribuicao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadoresLogicos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadoresRelacionais.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperadoresTernarios.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParOuImparTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PessoaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProdutoTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProdutoTest02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProdutoTest03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PublicacaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RuntimeExceptionTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecurityToolTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeminarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsNoJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudantTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchCaseJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tabuada.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TabuadaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteComSwing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteSyntax.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TiposPrimitivos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsuarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeekTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrays.praticando.aprendendo.ArraysNoJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.calcNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dois.parte.jv.on.abstratas.classes.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.enums.metodos.sobreescrita.test.ClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fin4l.referencia.tipo.test.CarroTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inicializacao.de.blocos.test.AnimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jv.abstratas.classes.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jv.on.abstratas.classes.test.ClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maratona.dev.dojo.Java02OlaDevDojo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maratona.dev.dojo.Java03TipsPrimitives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.msgPersonalisada.executor&quot;: &quot;Run&quot;,
+    &quot;Application.objeto.orientacao.exercise.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.objetos.orienteacao.exercise.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop.construtores.estudando.test.AnimeTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.oop.inicializacao.sequencia.test.FuncionarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.referencia.tipo.parametros.estudando.test.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.referencia.tipos.parametros.test.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sozinho.objeto.criando.test.EstudanteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sozinho.objeto.criando.test.EstudanteTest02.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JavaScript Debug.funcionarioDocumentation.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gabriel/Downloads/Jasmine&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/gabriel/Documentos/GitHub/Java/Java-79/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fin4l.referencia.tipo.domain" />
@@ -266,13 +262,13 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LivroTest">
-    <configuration name="LivroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bpolymorphism.learn.test.LivroTest" />
-      <module name="Java-72" />
+  <component name="RunManager" selected="Application.now.exception.understand.test.RuntimeExceptionTest01">
+    <configuration name="ExceptionText01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="now.exception.understand.test.ExceptionText01" />
+      <module name="Java-76" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bpolymorphism.learn.test.*" />
+          <option name="PATTERN" value="now.exception.understand.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +276,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.learn.test.ProdutoTest01" />
-      <module name="Java-72" />
+    <configuration name="RuntimeExceptionTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.runtime.test.RuntimeExceptionTest01" />
+      <module name="Java-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.learn.test.*" />
+          <option name="PATTERN" value="exception.runtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.learn.test.ProdutoTest02" />
-      <module name="Java-72" />
+    <configuration name="RuntimeExceptionTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="now.exception.understand.test.RuntimeExceptionTest02" />
+      <module name="Java-76" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.learn.test.*" />
+          <option name="PATTERN" value="now.exception.understand.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.learn.test.ProdutoTest03" />
-      <module name="Java-72" />
+    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.account.bank.test.UserTest" />
+      <module name="Java-77" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.learn.test.*" />
+          <option name="PATTERN" value="exercise.account.bank.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.learn.test.RepositoryTest" />
-      <module name="Java-72" />
+    <configuration name="now.exception.understand.test.RuntimeExceptionTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="now.exception.understand.test.RuntimeExceptionTest01" />
+      <module name="Java-76" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.learn.test.*" />
+          <option name="PATTERN" value="now.exception.understand.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,19 +329,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LivroTest" />
-      <item itemvalue="Application.ProdutoTest03" />
-      <item itemvalue="Application.RepositoryTest" />
-      <item itemvalue="Application.ProdutoTest02" />
-      <item itemvalue="Application.ProdutoTest01" />
+      <item itemvalue="Application.now.exception.understand.test.RuntimeExceptionTest01" />
+      <item itemvalue="Application.UserTest" />
+      <item itemvalue="Application.ExceptionText01" />
+      <item itemvalue="Application.RuntimeExceptionTest01" />
+      <item itemvalue="Application.RuntimeExceptionTest02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LivroTest" />
-        <item itemvalue="Application.RepositoryTest" />
-        <item itemvalue="Application.ProdutoTest01" />
-        <item itemvalue="Application.ProdutoTest02" />
-        <item itemvalue="Application.ProdutoTest03" />
+        <item itemvalue="Application.now.exception.understand.test.RuntimeExceptionTest01" />
+        <item itemvalue="Application.RuntimeExceptionTest02" />
+        <item itemvalue="Application.UserTest" />
+        <item itemvalue="Application.ExceptionText01" />
+        <item itemvalue="Application.RuntimeExceptionTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -790,6 +786,26 @@
           <url>file://$PROJECT_DIR$/Java-74/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-75/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-76/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-77/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-79/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
