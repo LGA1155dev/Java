@@ -48,6 +48,7 @@
 * [X] Dia 43 concluído
 * só falta mais 156 dias de estudo... pouco né?
 
+* [X] Isso acima não é a quantidade real de dias de estudo em java, já que já estudo esta linguagem a mais de 5 meses. Essa contagem serve para demonstrar a contagem de dias que venho nesse arquivo markdown documentar os estudos.
 
 ---
 
