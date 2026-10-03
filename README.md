@@ -35,7 +35,18 @@
 * [X] Dia 30 concluído
 * [x] Dia 31 concluído
 * [x] Dia 32 concluído
-* só falta mais 168 dias de estudo... pouco né?
+* [X] Dia 33 concluído
+* [X] Dia 34 concluído
+* [X] Dia 35 concluído
+* [X] Dia 36 concluído
+* [X] Dia 37 concluído
+* [X] Dia 38 concluído
+* [X] Dia 39 concluído
+* [X] Dia 40 concluído
+* [X] Dia 41 concluído
+* [X] Dia 42 concluído
+* [X] Dia 43 concluído
+* só falta mais 156 dias de estudo... pouco né?
 
 
 ---
@@ -2352,6 +2363,759 @@ A principal ideia que estou aprendendo é:
 ## 📅 Dia 32 
 
 ### Finalmente sainda dessa porra de orientação a objeto, mas iniciando em exceptions 💀... 
+
+
+# Dia 33 — Errors
+
+Em Java, `Error` representa problemas graves que normalmente estão relacionados à JVM ou ao ambiente de execução.
+
+`Error` faz parte da hierarquia de `Throwable`:
+
+```text
+Throwable
+├── Error
+└── Exception
+```
+
+Alguns exemplos de `Error`:
+
+```text
+StackOverflowError
+OutOfMemoryError
+```
+
+Por exemplo, uma recursão infinita pode causar um `StackOverflowError`:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        main(args);
+    }
+}
+```
+
+Nesse caso, o método `main()` chama a si mesmo infinitamente até que a pilha de execução fique cheia.
+
+Normalmente, não devemos tentar tratar `Error` com `try/catch`, pois geralmente representam problemas graves que a aplicação não consegue resolver adequadamente.
+
+---
+
+# Dia 34 — RuntimeException
+
+`RuntimeException` é uma classe que representa exceções que podem ocorrer durante a execução do programa.
+
+Ela é uma subclasse de `Exception`:
+
+```text
+Throwable
+└── Exception
+    └── RuntimeException
+```
+
+As exceções que herdam de `RuntimeException` são chamadas de **unchecked exceptions**.
+
+Alguns exemplos:
+
+```text
+NullPointerException
+ArithmeticException
+ArrayIndexOutOfBoundsException
+IllegalArgumentException
+```
+
+Exemplo:
+
+```java
+int resultado = 10 / 0;
+```
+
+Isso gera:
+
+```text
+ArithmeticException
+```
+
+Outro exemplo:
+
+```java
+String nome = null;
+
+System.out.println(nome.toUpperCase());
+```
+
+Nesse caso ocorre:
+
+```text
+NullPointerException
+```
+
+Diferentemente das checked exceptions, não somos obrigados pelo compilador a tratar uma `RuntimeException` com `try/catch` ou declarar `throws`.
+
+---
+
+# Dia 35 — Lançando Exceção Unchecked
+
+Podemos lançar uma exceção manualmente utilizando a palavra-chave `throw`.
+
+Exemplo:
+
+```java
+public static void validarIdade(int idade) {
+
+    if (idade < 18) {
+        throw new IllegalArgumentException("Idade inválida");
+    }
+
+    System.out.println("Idade válida");
+}
+```
+
+Caso o método receba uma idade menor que 18, uma `IllegalArgumentException` será lançada.
+
+Também podemos lançar diretamente uma `RuntimeException`:
+
+```java
+throw new RuntimeException("Ocorreu um erro");
+```
+
+Como `RuntimeException` é uma unchecked exception, não precisamos obrigatoriamente declarar `throws` no método.
+
+É importante utilizar exceções de maneira adequada, escolhendo um tipo que represente corretamente o problema ocorrido.
+
+---
+
+# Dia 36 — Bloco Finally
+
+O bloco `finally` é utilizado para executar código depois do `try` e do `catch`, independentemente de uma exceção ter ocorrido ou não.
+
+Exemplo:
+
+```java
+try {
+    System.out.println("Executando o try");
+
+} catch (RuntimeException e) {
+    System.out.println("Ocorreu uma exceção");
+
+} finally {
+    System.out.println("Executando o finally");
+}
+```
+
+O `finally` é muito utilizado para realizar tarefas de limpeza, como liberar recursos.
+
+A estrutura básica é:
+
+```java
+try {
+    // código que pode gerar exceção
+} catch (Exception e) {
+    // tratamento da exceção
+} finally {
+    // código executado no final
+}
+```
+
+O `finally` normalmente será executado mesmo quando ocorre uma exceção ou quando existe um `return` dentro do `try` ou `catch`.
+
+---
+
+# Dia 37 — Capturando Múltiplas Exceções com Try-Catch
+
+Podemos utilizar vários blocos `catch` para tratar diferentes tipos de exceção.
+
+Exemplo:
+
+```java
+try {
+
+    int resultado = 10 / 0;
+
+} catch (ArithmeticException e) {
+
+    System.out.println("Não é possível dividir por zero");
+
+} catch (RuntimeException e) {
+
+    System.out.println("Ocorreu uma RuntimeException");
+}
+```
+
+Podemos ter vários `catch` associados ao mesmo `try`.
+
+É importante colocar as exceções mais específicas antes das mais genéricas.
+
+Por exemplo:
+
+```java
+catch (ArithmeticException e) {
+
+} catch (RuntimeException e) {
+
+}
+```
+
+Isso funciona porque `ArithmeticException` é uma subclasse de `RuntimeException`.
+
+Porém, isto não funcionaria:
+
+```java
+catch (RuntimeException e) {
+
+} catch (ArithmeticException e) {
+
+}
+```
+
+Porque o primeiro `catch` já seria capaz de capturar `ArithmeticException`.
+
+---
+
+# Dia 38 — MultiCatch em Linha
+
+O MultiCatch permite capturar diferentes tipos de exceção utilizando um único bloco `catch`.
+
+Utilizamos o operador `|` para separar as exceções:
+
+```java
+try {
+
+    // código
+
+} catch (ArithmeticException | NullPointerException e) {
+
+    System.out.println("Ocorreu uma exceção");
+}
+```
+
+Isso pode ser útil quando diferentes exceções precisam receber exatamente o mesmo tratamento.
+
+Sem MultiCatch, precisaríamos escrever:
+
+```java
+try {
+
+    // código
+
+} catch (ArithmeticException e) {
+
+    System.out.println("Ocorreu uma exceção");
+
+} catch (NullPointerException e) {
+
+    System.out.println("Ocorreu uma exceção");
+}
+```
+
+No MultiCatch, as exceções não podem possuir uma relação de herança entre si.
+
+Por exemplo, não podemos fazer:
+
+```java
+catch (RuntimeException | ArithmeticException e) {
+}
+```
+
+porque `ArithmeticException` já é uma subclasse de `RuntimeException`.
+
+---
+
+# Dia 39 — Try With Resources
+
+O `try-with-resources` permite trabalhar com recursos que precisam ser fechados automaticamente.
+
+O recurso utilizado precisa implementar a interface `AutoCloseable`.
+
+Exemplo:
+
+```java
+try (Scanner scanner = new Scanner(System.in)) {
+
+    String nome = scanner.nextLine();
+
+}
+```
+
+Quando o bloco `try` termina, o `Scanner` é fechado automaticamente.
+
+Sem try-with-resources, seria necessário fechar manualmente:
+
+```java
+Scanner scanner = new Scanner(System.in);
+
+try {
+
+    String nome = scanner.nextLine();
+
+} finally {
+
+    scanner.close();
+}
+```
+
+O try-with-resources é bastante utilizado com:
+
+- Arquivos
+- Streams
+- Scanners
+- Conexões
+- Recursos de banco de dados
+
+Exemplo com arquivo:
+
+```java
+try (FileReader reader = new FileReader("arquivo.txt")) {
+
+    // utilização do arquivo
+
+} catch (IOException e) {
+
+    e.printStackTrace();
+}
+```
+
+A principal vantagem é evitar o esquecimento de fechar recursos.
+
+---
+
+# Dia 40 — Exceção Customizada
+
+Podemos criar nossas próprias exceções para representar situações específicas da aplicação.
+
+Para criar uma exceção unchecked, podemos herdar de `RuntimeException`:
+
+```java
+public class UsuarioInvalidoException extends RuntimeException {
+
+    public UsuarioInvalidoException(String message) {
+        super(message);
+    }
+}
+```
+
+Depois podemos utilizá-la:
+
+```java
+public void validarUsuario(String nome) {
+
+    if (nome == null || nome.isBlank()) {
+        throw new UsuarioInvalidoException("Usuário inválido");
+    }
+}
+```
+
+Também podemos criar uma exceção checked herdando diretamente de `Exception`:
+
+```java
+public class MinhaException extends Exception {
+
+    public MinhaException(String message) {
+        super(message);
+    }
+}
+```
+
+A diferença é:
+
+```text
+Exception
+└── Checked Exception
+
+RuntimeException
+└── Unchecked Exception
+```
+
+Criar exceções customizadas pode deixar o código mais expressivo, pois conseguimos representar problemas específicos do domínio da aplicação.
+
+---
+
+# Dia 41 — Exceção e Regras de Sobrescrita
+
+Existem algumas regras relacionadas às exceções quando utilizamos sobrescrita de métodos (`@Override`).
+
+Uma classe filha não pode lançar uma **checked exception mais abrangente** do que a declarada pelo método da classe pai.
+
+Exemplo:
+
+```java
+class Animal {
+
+    public void emitirSom() throws IOException {
+    }
+}
+```
+
+Uma classe filha pode lançar uma exceção mais específica:
+
+```java
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() throws FileNotFoundException {
+    }
+}
+```
+
+Isso é possível porque `FileNotFoundException` é uma subclasse de `IOException`.
+
+Porém, isto não é permitido:
+
+```java
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() throws Exception {
+    }
+}
+```
+
+Nesse caso, `Exception` é mais abrangente que `IOException`.
+
+### RuntimeException
+
+As unchecked exceptions possuem uma regra diferente.
+
+Uma classe filha pode lançar uma `RuntimeException` mesmo que o método da classe pai não declare nenhuma exceção:
+
+```java
+class Animal {
+
+    public void emitirSom() {
+    }
+}
+
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() {
+        throw new RuntimeException("Erro");
+    }
+}
+```
+
+---
+
+# Dia 42 — Classes Utilitárias: Wrappers
+
+As classes Wrapper são classes que representam os tipos primitivos como objetos.
+
+| Primitivo | Wrapper |
+|---|---|
+| `byte` | `Byte` |
+| `short` | `Short` |
+| `int` | `Integer` |
+| `long` | `Long` |
+| `float` | `Float` |
+| `double` | `Double` |
+| `char` | `Character` |
+| `boolean` | `Boolean` |
+
+Exemplo:
+
+```java
+int numero = 10;
+
+Integer numeroWrapper = 10;
+```
+
+O Java possui **autoboxing**, que converte automaticamente um tipo primitivo para seu Wrapper:
+
+```java
+Integer numero = 10;
+```
+
+Também existe o **unboxing**, que faz o contrário:
+
+```java
+Integer numero = 10;
+
+int valor = numero;
+```
+
+As classes Wrapper possuem vários métodos utilitários.
+
+Por exemplo, podemos converter uma `String` para `int`:
+
+```java
+int numero = Integer.parseInt("10");
+```
+
+Ou converter uma `String` para `double`:
+
+```java
+double valor = Double.parseDouble("10.5");
+```
+
+Também podemos utilizar métodos como:
+
+```java
+Integer.max(10, 20);
+Integer.min(10, 20);
+```
+
+As Wrappers são muito importantes porque algumas estruturas e APIs do Java trabalham com objetos em vez de tipos primitivos.
+
+---
+
+# Dia 43 — Classes Utilitárias: Strings
+
+A classe `String` é utilizada para representar textos em Java.
+
+Ela possui diversos métodos úteis.
+
+### length()
+
+Retorna a quantidade de caracteres:
+
+```java
+String nome = "Java";
+
+System.out.println(nome.length());
+```
+
+Resultado:
+
+```text
+4
+```
+
+### charAt()
+
+Retorna o caractere de determinada posição:
+
+```java
+String nome = "Java";
+
+System.out.println(nome.charAt(0));
+```
+
+Resultado:
+
+```text
+J
+```
+
+### substring()
+
+Obtém uma parte da String:
+
+```java
+String texto = "Java Spring";
+
+System.out.println(texto.substring(0, 4));
+```
+
+Resultado:
+
+```text
+Java
+```
+
+### equals()
+
+Compara o conteúdo de duas Strings:
+
+```java
+String nome1 = "Java";
+String nome2 = "Java";
+
+System.out.println(nome1.equals(nome2));
+```
+
+Resultado:
+
+```text
+true
+```
+
+Para comparar o conteúdo de Strings, normalmente utilizamos `equals()` em vez de `==`.
+
+### equalsIgnoreCase()
+
+Compara duas Strings ignorando maiúsculas e minúsculas:
+
+```java
+String texto = "JAVA";
+
+System.out.println(texto.equalsIgnoreCase("java"));
+```
+
+Resultado:
+
+```text
+true
+```
+
+### toUpperCase()
+
+Converte a String para letras maiúsculas:
+
+```java
+String texto = "java";
+
+System.out.println(texto.toUpperCase());
+```
+
+Resultado:
+
+```text
+JAVA
+```
+
+### toLowerCase()
+
+Converte para letras minúsculas:
+
+```java
+String texto = "JAVA";
+
+System.out.println(texto.toLowerCase());
+```
+
+Resultado:
+
+```text
+java
+```
+
+### contains()
+
+Verifica se determinada sequência está presente:
+
+```java
+String texto = "Estou estudando Java";
+
+System.out.println(texto.contains("Java"));
+```
+
+Resultado:
+
+```text
+true
+```
+
+### replace()
+
+Substitui uma sequência por outra:
+
+```java
+String texto = "Java é difícil";
+
+texto = texto.replace("difícil", "legal");
+
+System.out.println(texto);
+```
+
+Resultado:
+
+```text
+Java é legal
+```
+
+### trim()
+
+Remove espaços do início e do final:
+
+```java
+String texto = "   Java   ";
+
+System.out.println(texto.trim());
+```
+
+### isEmpty()
+
+Verifica se a String possui tamanho `0`:
+
+```java
+String texto = "";
+
+System.out.println(texto.isEmpty());
+```
+
+Resultado:
+
+```text
+true
+```
+
+### isBlank()
+
+Verifica se a String está vazia ou contém apenas espaços em branco:
+
+```java
+String texto = "   ";
+
+System.out.println(texto.isBlank());
+```
+
+Resultado:
+
+```text
+true
+```
+
+### split()
+
+Divide uma String de acordo com um delimitador:
+
+```java
+String nomes = "Joao,Maria,Pedro";
+
+String[] resultado = nomes.split(",");
+
+for (String nome : resultado) {
+    System.out.println(nome);
+}
+```
+
+Resultado:
+
+```text
+Joao
+Maria
+Pedro
+```
+
+### Imutabilidade da String
+
+Uma característica importante da classe `String é que ela é **imutável**.
+
+Isso significa que seus métodos não modificam diretamente o objeto original. Em vez disso, eles retornam uma nova `String`.
+
+Por exemplo:
+
+```java
+String texto = "java";
+
+texto.toUpperCase();
+
+System.out.println(texto);
+```
+
+Resultado:
+
+```text
+java
+```
+
+Para armazenar o resultado da operação:
+
+```java
+String texto = "java";
+
+texto = texto.toUpperCase();
+
+System.out.println(texto);
+```
+
+Resultado:
+
+```text
+JAVA
+```
+
+Isso acontece porque a operação criou uma nova String em vez de modificar a original.
 
 
 
