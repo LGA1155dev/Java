@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-79/src/Pwrapper/test/WrapperTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-79/src/Qstring/test/StringTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-79/src/Qstring/test/StringTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +157,7 @@
     "Application.SecurityToolTest.executor": "Run",
     "Application.SeminarioTest.executor": "Run",
     "Application.StringTest01.executor": "Run",
+    "Application.StringTest02.executor": "Run",
     "Application.StringsNoJava.executor": "Run",
     "Application.StudantTest.executor": "Run",
     "Application.StudentTest.executor": "Run",
@@ -247,7 +247,7 @@
       <recent name="associacao.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringTest01">
+  <component name="RunManager" selected="Application.StringTest02">
     <configuration name="RuntimeExceptionTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="now.exception.understand.test.RuntimeExceptionTest02" />
       <module name="Java-76" />
@@ -274,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.account.bank.test.UserTest" />
-      <module name="Java-77" />
+    <configuration name="StringTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Qstring.test.StringTest02" />
+      <module name="Java-79" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.account.bank.test.*" />
+          <option name="PATTERN" value="Qstring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +314,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringTest02" />
       <item itemvalue="Application.StringTest01" />
       <item itemvalue="Application.WrapperTest01" />
       <item itemvalue="Application.now.exception.understand.test.RuntimeExceptionTest01" />
-      <item itemvalue="Application.UserTest" />
       <item itemvalue="Application.RuntimeExceptionTest02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringTest02" />
         <item itemvalue="Application.StringTest01" />
         <item itemvalue="Application.WrapperTest01" />
         <item itemvalue="Application.now.exception.understand.test.RuntimeExceptionTest01" />
         <item itemvalue="Application.RuntimeExceptionTest02" />
-        <item itemvalue="Application.UserTest" />
       </list>
     </recent_temporary>
   </component>
