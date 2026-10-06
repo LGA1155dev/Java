@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbd7ea8-958f-4cdc-b74e-3c6457c977f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-79/src/Qstring/test/StringTest02.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/domain/Funcionario.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/domain/LoginInvalidoException.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/domain/Pessoa.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/LoginInvalidoExceptionTest01.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/RuntimeExceptionTest03.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/RuntimeExceptionTest04.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/RuntimeExceptionTest05.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/SobreescritaComExceptionTest01.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-76/src/now/exception/understand/test/TryWithResources01.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/Java-80.iml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/Main.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/com/bank/deluxe/repository/LoginDeluxeRepository.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/com/bank/deluxe/test/LoginExceptionTest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/dev/account/bank/domain/UserAccount.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/exception/numbers/division/domain/DivisaoDeNumerosException.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/exception/numbers/division/test/DivisaoDeNumerosExceptionTest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/number/to/string/domain/StringToNumber.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/number/to/string/test/StringToNumberTest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/Java-80/src/usuario/pelo/acessado/array/domain/ArrayAcessadoPeloUsuario.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/GitHub/Java/file/arquivo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/GitHub/Java/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/GitHub/Java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/GitHub/Java/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/GitHub/Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/GitHub/Java/README.md" beforeDir="false" afterPath="$USER_HOME$/Documents/GitHub/Java/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +67,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Java-29/src/exercicios/oop/java/domain/Contador.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="#JAVA_HOME" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_HOME" />
+    <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
@@ -212,7 +228,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gabriel/Downloads/Jasmine",
+    "last_opened_file_path": "/home/gabriel/Documents/GitHub/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -222,7 +238,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -809,7 +825,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Java-53/src/oop/protectede/estudando/domain/Funcionario.java</url>
           <line>6</line>
-          <properties class="oop.protectede.estudando.domain.Funcionario" method="&lt;init&gt;">
+          <properties class="oop.protectede.estudando.domain.Funcionario">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
